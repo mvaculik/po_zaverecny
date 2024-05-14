@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://eihph1nr0w6e"
+path="res://.godot/imported/Jump 1 - Sound effects Pack 2.wav-42d01b6249dc0e1b8a1c241a25c68a9e.sample"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Jump/WAV/Jump 1 - Sound effects Pack 2.wav"
+dest_files=["res://.godot/imported/Jump 1 - Sound effects Pack 2.wav-42d01b6249dc0e1b8a1c241a25c68a9e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

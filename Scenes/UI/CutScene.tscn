@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://b78vhb2q7738n"]
+
+[sub_resource type="GDScript" id="GDScript_403ac"]
+script/source = "extends Node2D
+
+@onready var camera = $CameraCutscene
+
+
+func _ready():
+	Main.cutscene.connect(_play_cutscene)
+
+func _play_cutscene():
+	camera.enabled = true
+	camera.global_position = Main.player.position
+"
+
+[node name="Cutscene" type="Node2D"]
+script = SubResource("GDScript_403ac")
+
+[node name="CameraCutscene" type="Camera2D" parent="."]
+enabled = false
+zoom = Vector2(1.1, 1.1)

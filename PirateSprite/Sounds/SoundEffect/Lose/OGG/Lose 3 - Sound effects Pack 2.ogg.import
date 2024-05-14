@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cj64lfo2guevj"
+path="res://.godot/imported/Lose 3 - Sound effects Pack 2.ogg-23b68f80b134596b4c01e0e2928b9894.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Lose/OGG/Lose 3 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/Lose 3 - Sound effects Pack 2.ogg-23b68f80b134596b4c01e0e2928b9894.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

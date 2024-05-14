@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://byxnka8iiih7o"
+path="res://.godot/imported/Coins 7 - Sound effects Pack 2.mp3-f39419e1ed10be268198e236ab220456.mp3str"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Coins/MP3/Coins 7 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Coins 7 - Sound effects Pack 2.mp3-f39419e1ed10be268198e236ab220456.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,11 @@
+res://default_bus_layout.tres
+res://Scenes/UI/WinScreen.tscn
+res://Scenes/UI/TitleScreen.tscn
+res://Scenes/UI/Settings.tscn
+res://Scenes/UI/Prolog.tscn
+res://Scenes/UI/PauseMenu.tscn
+res://Scenes/UI/GUI.tscn
+res://Scenes/UI/GameOver.tscn
+res://Scenes/UI/Epilog.tscn
+res://Scenes/UI/DialogChat.tscn
+res://Scenes/UI/CutScene.tscn

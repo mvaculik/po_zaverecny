@@ -1,0 +1,219 @@
+[gd_scene load_steps=6 format=3 uid="uid://c07govq5jw42w"]
+
+[ext_resource type="LabelSettings" uid="uid://jjfcoue1kihn" path="res://Settings/FontSettings/Credit.tres" id="1_te08y"]
+
+[sub_resource type="GDScript" id="GDScript_4ta5r"]
+script/source = "extends Control
+
+
+func _ready():
+	$AnimationPlayer.play(\"FadeInOut\")
+	
+
+
+
+func _on_animation_player_animation_finished(anim_name):
+	get_tree().change_scene_to_file(\"res://Scenes/UI/TitleScreen.tscn\")
+"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ilure"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Animation" id="Animation_lu5v0"]
+resource_name = "FadeInOut"
+length = 10.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 9, 10),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_l1bew"]
+_data = {
+"FadeInOut": SubResource("Animation_lu5v0")
+}
+
+[node name="Credit" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_4ta5r")
+metadata/_edit_vertical_guides_ = [426.0]
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ilure")
+
+[node name="Created" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -81.0
+offset_top = 15.0
+offset_right = 81.0
+offset_bottom = 67.0
+grow_horizontal = 2
+text = "SOURCES:"
+label_settings = ExtResource("1_te08y")
+horizontal_alignment = 1
+
+[node name="AssetArt" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -207.0
+offset_top = 90.0
+offset_right = 207.0
+offset_bottom = 148.0
+grow_horizontal = 2
+text = "Assets Art Game by :
+"
+label_settings = ExtResource("1_te08y")
+horizontal_alignment = 1
+
+[node name="Link" type="Label" parent="AssetArt"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -207.0
+offset_top = -6.0
+offset_right = 207.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.317647, 0.52549, 1, 1)
+text = "https://pixelfrog-assets.itch.io/treasure-hunters"
+horizontal_alignment = 1
+
+[node name="AssetUI" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -203.0
+offset_top = 161.0
+offset_right = 211.0
+offset_bottom = 219.0
+grow_horizontal = 2
+text = "Assets UI Game by :
+"
+label_settings = ExtResource("1_te08y")
+horizontal_alignment = 1
+
+[node name="Link" type="Label" parent="AssetUI"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -207.0
+offset_top = -6.0
+offset_right = 207.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.317647, 0.52549, 1, 1)
+text = "https://www.kenney.nl/assets/ui-pack"
+horizontal_alignment = 1
+
+[node name="AssetMusic" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -206.0
+offset_top = 239.0
+offset_right = 208.0
+offset_bottom = 297.0
+grow_horizontal = 2
+text = "Music composed by Bert Cole :"
+label_settings = ExtResource("1_te08y")
+horizontal_alignment = 1
+
+[node name="Link" type="Label" parent="AssetMusic"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -207.0
+offset_top = -6.0
+offset_right = 207.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.317647, 0.52549, 1, 1)
+text = "bitbybitsound.com"
+horizontal_alignment = 1
+
+[node name="AssetSFX" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -203.0
+offset_top = 312.0
+offset_right = 211.0
+offset_bottom = 370.0
+grow_horizontal = 2
+text = "Sound Effect By :"
+label_settings = ExtResource("1_te08y")
+horizontal_alignment = 1
+
+[node name="Link" type="Label" parent="AssetSFX"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -207.0
+offset_top = -6.0
+offset_right = 207.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.317647, 0.52549, 1, 1)
+text = "https://phoenix1291.itch.io/sound-effects-pack-2"
+horizontal_alignment = 1
+
+[node name="Label6" type="Label" parent="."]
+layout_mode = 1
+offset_left = 187.0
+offset_top = 411.0
+offset_right = 686.0
+offset_bottom = 463.0
+text = "Vaculík - Zednikovič - Mago"
+label_settings = ExtResource("1_te08y")
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_l1bew")
+}
+autoplay = "FadeInOut"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

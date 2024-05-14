@@ -1,0 +1,214 @@
+[gd_scene load_steps=47 format=3 uid="uid://b1c1ljlca1iu8"]
+
+[ext_resource type="Script" path="res://Scripts/Interactables/Ship.gd" id="1_gyl6s"]
+[ext_resource type="Texture2D" uid="uid://gebparh5a57q" path="res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/1.png" id="1_xrobn"]
+[ext_resource type="Texture2D" uid="uid://2xp3gwluhc68" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/1.png" id="2_hhqrx"]
+[ext_resource type="Texture2D" uid="uid://cwrtqypbbc345" path="res://PirateSprite/Sprites/Interactable/Ship/Anchor/1.png" id="3_x4wfb"]
+[ext_resource type="Texture2D" uid="uid://p2vo2dbfvln0" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 04.png" id="4_henpt"]
+[ext_resource type="Texture2D" uid="uid://cx6gr4hv7wfq8" path="res://PirateSprite/Sprites/Interactable/Ship/Anchor/2.png" id="4_nklru"]
+[ext_resource type="Texture2D" uid="uid://24t3yshho67d" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/1.png" id="6_8vh76"]
+[ext_resource type="Texture2D" uid="uid://cctejfyihvkrj" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/1.png" id="7_fa47c"]
+[ext_resource type="Texture2D" uid="uid://by50gi614m18r" path="res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/2.png" id="10_dey4c"]
+[ext_resource type="Texture2D" uid="uid://ddyxfuvd7ujap" path="res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/3.png" id="11_rjwyk"]
+[ext_resource type="Texture2D" uid="uid://cn1axi2aax4q8" path="res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/4.png" id="12_k0035"]
+[ext_resource type="Texture2D" uid="uid://du78m4ieggm5q" path="res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/5.png" id="13_govec"]
+[ext_resource type="Texture2D" uid="uid://ds26srmptshaa" path="res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/6.png" id="14_5wspi"]
+[ext_resource type="Texture2D" uid="uid://dtve1l563g76r" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/1.png" id="15_vjhao"]
+[ext_resource type="Texture2D" uid="uid://c5ubf0xlo8435" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/2.png" id="16_5yawl"]
+[ext_resource type="Texture2D" uid="uid://b6sabbikjaeac" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/3.png" id="17_qukvh"]
+[ext_resource type="Texture2D" uid="uid://cett7eaek8cha" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/4.png" id="18_8778u"]
+[ext_resource type="Texture2D" uid="uid://bdd4d3k53keuj" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/5.png" id="19_1lcr8"]
+[ext_resource type="Texture2D" uid="uid://ctct32u2e236k" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/6.png" id="20_xnicr"]
+[ext_resource type="Texture2D" uid="uid://dcoara2d5japx" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/7.png" id="21_w8two"]
+[ext_resource type="Texture2D" uid="uid://bngpfk6vbhguy" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 01.png" id="22_rj4kv"]
+[ext_resource type="Texture2D" uid="uid://gx2nek8s08yj" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/8.png" id="22_uys81"]
+[ext_resource type="Texture2D" uid="uid://d0j5wr3by3sct" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/2.png" id="23_r3asu"]
+[ext_resource type="Texture2D" uid="uid://cfqddlf1ktxv1" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 02.png" id="23_wv6me"]
+[ext_resource type="Texture2D" uid="uid://bki7huhjyid6e" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/3.png" id="24_5c7r0"]
+[ext_resource type="Texture2D" uid="uid://5m7ue8a3j42v" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 03.png" id="24_hiita"]
+[ext_resource type="Texture2D" uid="uid://7ytxtrkgfit6" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 04.png" id="25_abyqr"]
+[ext_resource type="Texture2D" uid="uid://dfsr8jhset87" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/4.png" id="25_ompdb"]
+[ext_resource type="Texture2D" uid="uid://cnwqepwv2cq0r" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/5.png" id="26_k8efx"]
+[ext_resource type="Texture2D" uid="uid://birs6p81kfj26" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 05.png" id="26_m4ggr"]
+[ext_resource type="Texture2D" uid="uid://bmxicxsyyc4qn" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 06.png" id="27_3eg0u"]
+[ext_resource type="Texture2D" uid="uid://b6gsedih4vtr5" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/2.png" id="27_3jw4c"]
+[ext_resource type="Texture2D" uid="uid://c7bj0a6lxy6xk" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/3.png" id="28_e1em1"]
+[ext_resource type="Texture2D" uid="uid://dqkds1vv4t2fn" path="res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/4.png" id="29_kxlcj"]
+[ext_resource type="Texture2D" uid="uid://y4qwav647gmh" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/2.png" id="30_fx14s"]
+[ext_resource type="Texture2D" uid="uid://bh78plrlg5jqg" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/3.png" id="31_yjm68"]
+[ext_resource type="Texture2D" uid="uid://b8lhpvderrike" path="res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/4.png" id="32_de3ih"]
+[ext_resource type="Texture2D" uid="uid://b158u8i4wt2o1" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 01.png" id="38_5rvfb"]
+[ext_resource type="Texture2D" uid="uid://d4eyqvmv3qtqx" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 02.png" id="39_6q5a0"]
+[ext_resource type="Texture2D" uid="uid://cujjwfn148ia3" path="res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 03.png" id="40_7m4b8"]
+
+[sub_resource type="Curve2D" id="Curve2D_axkbw"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 1554, -2)
+}
+point_count = 2
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dbfbr"]
+size = Vector2(78, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g5d6y"]
+size = Vector2(42, 10)
+
+[sub_resource type="Animation" id="Animation_ao8mn"]
+resource_name = "Idle"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/Ship:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_xrobn"), ExtResource("10_dey4c"), ExtResource("11_rjwyk"), ExtResource("12_k0035"), ExtResource("13_govec"), ExtResource("14_5wspi")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/Sail:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("15_vjhao"), ExtResource("16_5yawl"), ExtResource("17_qukvh"), ExtResource("18_8778u"), ExtResource("19_1lcr8"), ExtResource("20_xnicr"), ExtResource("21_w8two"), ExtResource("22_uys81")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/ShipHelm:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("22_rj4kv"), ExtResource("23_wv6me"), ExtResource("24_hiita"), ExtResource("25_abyqr"), ExtResource("26_m4ggr"), ExtResource("27_3eg0u")]
+}
+
+[sub_resource type="Animation" id="Animation_lnq07"]
+resource_name = "Move"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/Splash:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("6_8vh76"), ExtResource("23_r3asu"), ExtResource("24_5c7r0"), ExtResource("25_ompdb"), ExtResource("26_k8efx")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/Splash2:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("7_fa47c"), ExtResource("27_3jw4c"), ExtResource("28_e1em1"), ExtResource("29_kxlcj")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/Sail:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("2_hhqrx"), ExtResource("30_fx14s"), ExtResource("31_yjm68"), ExtResource("32_de3ih")]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Path2D/PathFollow2D/CharacterBody2D/ShipHelm:texture")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("38_5rvfb"), ExtResource("39_6q5a0"), ExtResource("40_7m4b8"), ExtResource("4_henpt")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sics0"]
+_data = {
+"Idle": SubResource("Animation_ao8mn"),
+"Move": SubResource("Animation_lnq07")
+}
+
+[node name="Ship" type="Node2D"]
+script = ExtResource("1_gyl6s")
+speed_ship = 0.1
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_axkbw")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(0, -2)
+loop = false
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="Path2D/PathFollow2D"]
+
+[node name="Ship" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+texture = ExtResource("13_govec")
+
+[node name="Sail" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+position = Vector2(-13, -34)
+texture = ExtResource("32_de3ih")
+
+[node name="ShipHelm" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+position = Vector2(15, -19)
+scale = Vector2(0.596774, 0.596774)
+texture = ExtResource("4_henpt")
+
+[node name="Anchor" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+position = Vector2(-24, 14)
+texture = ExtResource("3_x4wfb")
+
+[node name="Chain" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+position = Vector2(-24, 1)
+texture = ExtResource("4_nklru")
+
+[node name="Splash" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+position = Vector2(-43, 0)
+texture = ExtResource("26_k8efx")
+
+[node name="Splash2" type="Sprite2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+position = Vector2(-47, 8)
+texture = ExtResource("29_kxlcj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+shape = SubResource("RectangleShape2D_dbfbr")
+
+[node name="Moving" type="Area2D" parent="Path2D/PathFollow2D/CharacterBody2D"]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/PathFollow2D/CharacterBody2D/Moving"]
+position = Vector2(4, -11)
+shape = SubResource("RectangleShape2D_g5d6y")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Path2D/PathFollow2D"]
+root_node = NodePath("../../..")
+autoplay = "Idle"
+libraries = {
+"": SubResource("AnimationLibrary_sics0")
+}
+
+[connection signal="area_entered" from="Path2D/PathFollow2D/CharacterBody2D/Moving" to="." method="_on_moving_area_entered"]

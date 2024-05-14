@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bhooanuuta2af"
+path="res://.godot/imported/Journey Across the Blue.ogg-c2fabc366396fac55e347c8f403d65fd.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/Backsound/Overworld/Journey Across the Blue.ogg"
+dest_files=["res://.godot/imported/Journey Across the Blue.ogg-c2fabc366396fac55e347c8f403d65fd.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

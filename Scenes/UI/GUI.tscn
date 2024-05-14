@@ -1,0 +1,383 @@
+[gd_scene load_steps=21 format=3 uid="uid://bwqyvikapsal"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/GUI.gd" id="1_nqcft"]
+[ext_resource type="Texture2D" uid="uid://b77g55lv138oj" path="res://PirateSprite/Sprites/UI/Life Bars/Big Bars/1.png" id="2_4w4ds"]
+[ext_resource type="Texture2D" uid="uid://ddjpqnyrsuca3" path="res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/01.png" id="3_7pyvq"]
+[ext_resource type="Texture2D" uid="uid://dyikp17d8vss7" path="res://PirateSprite/Sprites/UI/Life Bars/Big Bars/3.png" id="3_50egy"]
+[ext_resource type="FontFile" uid="uid://cn5odjput1dqk" path="res://PirateSprite/Font/Quicksand-Bold.ttf" id="4_kuhx8"]
+[ext_resource type="Texture2D" uid="uid://dqer3ugp2kc11" path="res://PirateSprite/Sprites/UI/Life Bars/Big Bars/4.png" id="4_o8rv3"]
+[ext_resource type="Texture2D" uid="uid://khfis76o63em" path="res://PirateSprite/Sprites/UI/Life Bars/Colors/1.png" id="5_lhm5c"]
+[ext_resource type="Texture2D" uid="uid://cgmfo7s3aomig" path="res://PirateSprite/Sprites/Interactable/Potion/Green Potion/07.png" id="6_6t0s8"]
+[ext_resource type="Texture2D" uid="uid://bryne6u86p6r2" path="res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/01.png" id="10_83iwf"]
+[ext_resource type="Texture2D" uid="uid://d0hliptss1rm" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/01.png" id="11_7nwo1"]
+[ext_resource type="Texture2D" uid="uid://dak8ywhwdmmdu" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Back.png" id="12_8p8e8"]
+[ext_resource type="Texture2D" uid="uid://cfsxtd5b420km" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Pause.png" id="12_qcoyw"]
+[ext_resource type="Texture2D" uid="uid://ltfepdgdrscq" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Bottom.png" id="13_vima8"]
+[ext_resource type="Texture2D" uid="uid://fjdgqrhexrwv" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Next.png" id="14_am4mn"]
+[ext_resource type="Texture2D" uid="uid://j0phw5f8n6qg" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Jump.png" id="15_3e7ww"]
+[ext_resource type="Texture2D" uid="uid://d33ao85rb7ykf" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Attack.png" id="16_gwu35"]
+[ext_resource type="PackedScene" uid="uid://b2olkil2dl7s8" path="res://Scenes/UI/DialogChat.tscn" id="20_wrg0w"]
+[ext_resource type="LabelSettings" uid="uid://cf34xomloh8il" path="res://Settings/FontSettings/LabelSettings.tres" id="23_qk132"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ujy0n"]
+bg_color = Color(0.184314, 0.184314, 0.184314, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.513726, 0.513726, 0.513726, 1)
+border_blend = true
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_grgco"]
+bg_color = Color(0.168627, 0.168627, 0.168627, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.25098, 0.25098, 0.25098, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[node name="GUI" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_nqcft")
+metadata/_edit_horizontal_guides_ = [-68.6368]
+
+[node name="Coins" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -215.594
+offset_top = 0.412613
+offset_right = -103.594
+offset_bottom = 66.4126
+grow_horizontal = 0
+
+[node name="ColorRect" type="Panel" parent="Coins"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 13.0
+offset_right = 102.0
+offset_bottom = 38.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_ujy0n")
+
+[node name="CoinIcon" type="TextureRect" parent="Coins"]
+layout_mode = 0
+offset_left = -13.6403
+offset_top = -3.55099
+offset_right = 67.3597
+offset_bottom = 77.449
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("3_7pyvq")
+
+[node name="CoinCount" type="Label" parent="Coins"]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 13.0
+offset_right = 63.0
+offset_bottom = 39.0
+theme_override_fonts/font = ExtResource("4_kuhx8")
+theme_override_font_sizes/font_size = 18
+text = "0"
+
+[node name="Lifebars" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 51.3041
+offset_top = 4.94975
+offset_right = 51.3041
+offset_bottom = 4.94975
+
+[node name="Start" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 17.7798
+offset_top = 0.0396881
+offset_right = 57.7798
+offset_bottom = 40.0397
+texture = ExtResource("2_4w4ds")
+
+[node name="Bars1" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 58.3779
+offset_top = 0.0396881
+offset_right = 98.3779
+offset_bottom = 40.0397
+texture = ExtResource("3_50egy")
+
+[node name="Bars2" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 98.4494
+offset_top = 0.0396881
+offset_right = 138.449
+offset_bottom = 40.0397
+texture = ExtResource("3_50egy")
+
+[node name="Bars3" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 137.844
+offset_top = -0.432247
+offset_right = 177.844
+offset_bottom = 39.5678
+texture = ExtResource("3_50egy")
+
+[node name="End" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 176.825
+offset_top = 0.149704
+offset_right = 216.825
+offset_bottom = 40.1497
+texture = ExtResource("4_o8rv3")
+
+[node name="Health" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 16.125
+offset_right = 73.0
+offset_bottom = 22.125
+texture = ExtResource("5_lhm5c")
+
+[node name="PotionEffect" type="HBoxContainer" parent="Lifebars"]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 30.0
+offset_right = 180.0
+offset_bottom = 47.0
+scale = Vector2(1.2, 1.2)
+
+[node name="JumpPotion" type="TextureRect" parent="Lifebars/PotionEffect"]
+visible = false
+custom_minimum_size = Vector2(15, 20)
+layout_mode = 2
+tooltip_text = "Jump Potion : Increase Your Jump Height"
+texture = ExtResource("6_6t0s8")
+
+[node name="SpeedPotion" type="TextureRect" parent="Lifebars/PotionEffect"]
+visible = false
+custom_minimum_size = Vector2(15, 20)
+layout_mode = 2
+tooltip_text = "Speed Potion : Increase Your Speed"
+texture = ExtResource("10_83iwf")
+
+[node name="AttackPotion" type="TextureRect" parent="Lifebars/PotionEffect"]
+visible = false
+custom_minimum_size = Vector2(15, 20)
+layout_mode = 2
+tooltip_text = "Attack Potion : Increase Your Attack Damage"
+texture = ExtResource("11_7nwo1")
+
+[node name="PauseControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 54.0
+offset_bottom = 51.0
+
+[node name="Pause" type="TouchScreenButton" parent="PauseControl"]
+position = Vector2(17.1328, 7.06624)
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("12_qcoyw")
+action = "pause"
+visibility_mode = 1
+
+[node name="LeftControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+grow_vertical = 0
+
+[node name="Left" type="TouchScreenButton" parent="LeftControl"]
+position = Vector2(14.0256, -76.4995)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("12_8p8e8")
+action = "left"
+visibility_mode = 1
+
+[node name="Down" type="TouchScreenButton" parent="LeftControl"]
+position = Vector2(135.806, -76.895)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("13_vima8")
+action = "down"
+visibility_mode = 1
+
+[node name="Right" type="TouchScreenButton" parent="LeftControl"]
+position = Vector2(267.939, -78.877)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("14_am4mn")
+action = "right"
+visibility_mode = 1
+
+[node name="RightCotrol" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Jump" type="TouchScreenButton" parent="RightCotrol"]
+position = Vector2(-97.9939, -102.911)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("15_3e7ww")
+action = "jump"
+visibility_mode = 1
+
+[node name="Attack" type="TouchScreenButton" parent="RightCotrol"]
+position = Vector2(-230.581, -79.1857)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("16_gwu35")
+action = "attack"
+visibility_mode = 1
+
+[node name="Score" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+
+[node name="Panel" type="Panel" parent="Score"]
+layout_mode = 0
+offset_left = -75.0
+offset_top = 6.0
+offset_right = 115.0
+offset_bottom = 42.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_grgco")
+
+[node name="PlayerScore" type="Label" parent="Score"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -69.1225
+offset_top = 13.0561
+offset_right = 68.8775
+offset_bottom = 34.0561
+grow_horizontal = 2
+text = "SCORE : 0"
+label_settings = ExtResource("23_qk132")
+
+[node name="BGMusic" type="AudioStreamPlayer2D" parent="."]
+volume_db = -2.0
+autoplay = true
+max_distance = 2e+07
+bus = &"Bg"
+
+[node name="Dialog" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+grow_vertical = 0
+
+[node name="Dialog1" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+dialog_text = [&"Jsi připraven??", &"Pojďme na to!", &"Pro pohyb použij W A S D", &"Pro skok použij SPACE a pro útok použij J"]
+
+[node name="Dialog2" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="Dialog3" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="Dialog4" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="Dialog5" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="Dialog6" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="DialogChest" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="DialogShip1" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="DialogShip2" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]
+
+[node name="DialogCave" parent="Dialog" instance=ExtResource("20_wrg0w")]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+grow_horizontal = 1
+grow_vertical = 0
+dialog_text = [&"Vítej v novém semestru.", &"Čekají tě nové výzvy!!"]

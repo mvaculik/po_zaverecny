@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://do00ysnmlso5e"]
+
+[ext_resource type="Texture2D" uid="uid://cbfaoffnja2vr" path="res://PirateSprite/Sprites/Interactable/Spikes/Spikes.png" id="1_7bct3"]
+[ext_resource type="Script" path="res://Scripts/Traps/SpikesGround.gd" id="1_r01pu"]
+
+[node name="Spikes" type="Node2D"]
+script = ExtResource("1_r01pu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, -16)
+texture = ExtResource("1_7bct3")
+
+[node name="HitBox" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="HitBox"]
+polygon = PackedVector2Array(-15, 0, -15, -6, -12, -11, -4, -16, 4, -13, 12, -15, 16, -10, 16, 0)
+
+[connection signal="area_entered" from="HitBox" to="." method="_on_hit_box_area_entered"]

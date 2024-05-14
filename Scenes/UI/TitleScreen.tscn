@@ -1,0 +1,237 @@
+[gd_scene load_steps=17 format=3 uid="uid://vrj5dxivr4qe"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/TitleScreen.gd" id="1_84wos"]
+[ext_resource type="FontFile" uid="uid://cn5odjput1dqk" path="res://PirateSprite/Font/Quicksand-Bold.ttf" id="3_agi5q"]
+[ext_resource type="Texture2D" uid="uid://nx3oylnrmv43" path="res://PirateSprite/Poster/Poster3.jpg" id="4_4bkdb"]
+[ext_resource type="LabelSettings" uid="uid://cf34xomloh8il" path="res://Settings/FontSettings/LabelSettings.tres" id="5_k1ykp"]
+[ext_resource type="Texture2D" uid="uid://d2hc35geogyph" path="res://PirateSprite/Sprites/UI/Pack/blue_panel.png" id="6_x62s7"]
+[ext_resource type="Texture2D" uid="uid://cjw6p2oty08m0" path="res://PirateSprite/Sprites/UI/Pack/grey_button00.png" id="7_ghd5r"]
+[ext_resource type="Texture2D" uid="uid://ckpa4iod4nu5e" path="res://PirateSprite/Sprites/UI/Pack/grey_button01.png" id="8_hj83g"]
+[ext_resource type="Texture2D" uid="uid://chd5pubuxbl6q" path="res://PirateSprite/Poster/Poster1.png" id="8_u2174"]
+[ext_resource type="Texture2D" uid="uid://7uax25la0ecg" path="res://PirateSprite/Sprites/UI/Pack/grey_button02.png" id="9_eftb2"]
+[ext_resource type="Texture2D" uid="uid://8sti0lunct70" path="res://PirateSprite/Sprites/UI/Pack/grey_button03.png" id="10_1t7ob"]
+[ext_resource type="FontFile" uid="uid://ckk4cbv0sy8wt" path="res://PirateSprite/Font/kenvector_future_thin.ttf" id="10_52wbw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3abkm"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_qxbtk"]
+line_spacing = 0.0
+font = ExtResource("3_agi5q")
+font_size = 38
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 10
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_o7nhh"]
+font = ExtResource("10_52wbw")
+font_size = 24
+font_color = Color(0.0117647, 0.0117647, 0.0117647, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_uumyp"]
+font = ExtResource("10_52wbw")
+font_size = 24
+font_color = Color(0.0117647, 0.0117647, 0.0117647, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_11t6d"]
+font = ExtResource("10_52wbw")
+font_size = 24
+font_color = Color(0.0117647, 0.0117647, 0.0117647, 1)
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_84wos")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3abkm")
+
+[node name="Poster1" type="Sprite2D" parent="."]
+position = Vector2(180, 277)
+scale = Vector2(0.265032, 0.260769)
+texture = ExtResource("8_u2174")
+
+[node name="Poster2" type="Sprite2D" parent="."]
+position = Vector2(687, 198)
+scale = Vector2(0.265032, 0.260769)
+texture = ExtResource("4_4bkdb")
+
+[node name="Panel2" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -426.0
+offset_top = 1.0
+offset_right = 426.0
+offset_bottom = 478.0
+grow_horizontal = 2
+text = "Fai Campus Rush
+
+
+
+
+
+
+
+Vaculík - Zednikovič - mago"
+label_settings = SubResource("LabelSettings_qxbtk")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+uppercase = true
+
+[node name="CreatedBy" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = -36.0
+offset_top = 443.0
+offset_right = 271.0
+offset_bottom = 469.0
+text = "CREATED BY JANA"
+label_settings = ExtResource("5_k1ykp")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BluePanel" type="Sprite2D" parent="."]
+position = Vector2(433, 239)
+scale = Vector2(2.3, 2.02)
+texture = ExtResource("6_x62s7")
+
+[node name="StartGame" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -64.0
+offset_top = -309.0
+offset_right = 126.0
+offset_bottom = -260.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.739281, 0.79124)
+texture_normal = ExtResource("7_ghd5r")
+texture_pressed = ExtResource("8_hj83g")
+texture_hover = ExtResource("9_eftb2")
+ignore_texture_size = true
+
+[node name="Label" type="Label" parent="StartGame"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.474
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -99.058
+offset_top = -27.0175
+offset_right = 109.942
+offset_bottom = 25.7085
+grow_horizontal = 2
+grow_vertical = 2
+text = "START GAME"
+label_settings = SubResource("LabelSettings_o7nhh")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Settings" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -65.0
+offset_top = -252.0
+offset_right = 125.0
+offset_bottom = -203.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.749363, 0.682329)
+texture_normal = ExtResource("7_ghd5r")
+texture_pressed = ExtResource("8_hj83g")
+texture_hover = ExtResource("9_eftb2")
+ignore_texture_size = true
+
+[node name="Label" type="Label" parent="Settings"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -82.9898
+offset_top = -25.9656
+offset_right = 84.0102
+offset_bottom = 24.0344
+grow_horizontal = 2
+grow_vertical = 2
+text = "SETTING"
+label_settings = SubResource("LabelSettings_uumyp")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="QUIT" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -63.9999
+offset_top = -201.0
+offset_right = 126.0
+offset_bottom = -150.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.732823, 0.658618)
+texture_normal = ExtResource("7_ghd5r")
+texture_pressed = ExtResource("8_hj83g")
+texture_hover = ExtResource("9_eftb2")
+texture_disabled = ExtResource("10_1t7ob")
+ignore_texture_size = true
+
+[node name="Label" type="Label" parent="QUIT"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.3646
+offset_top = -28.5367
+offset_right = 106.635
+offset_bottom = 23.4633
+grow_horizontal = 2
+grow_vertical = 2
+text = "EXIT GAME"
+label_settings = SubResource("LabelSettings_11t6d")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[connection signal="pressed" from="StartGame" to="." method="_on_start_game_pressed"]
+[connection signal="pressed" from="Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="QUIT" to="." method="_on_quit_pressed"]

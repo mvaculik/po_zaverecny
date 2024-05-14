@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cgl1bxhvfbfmt"
+path="res://.godot/imported/1up 4 - Sound effects Pack 2.wav-0e7d4a9b38003f333a19054e626e3384.sample"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 4 - Sound effects Pack 2.wav"
+dest_files=["res://.godot/imported/1up 4 - Sound effects Pack 2.wav-0e7d4a9b38003f333a19054e626e3384.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

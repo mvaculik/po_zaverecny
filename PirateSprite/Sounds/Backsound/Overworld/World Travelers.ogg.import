@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b3h06m87i1t0q"
+path="res://.godot/imported/World Travelers.ogg-828d29b1164243d1fd8ccbcea04850cd.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/Backsound/Overworld/World Travelers.ogg"
+dest_files=["res://.godot/imported/World Travelers.ogg-828d29b1164243d1fd8ccbcea04850cd.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

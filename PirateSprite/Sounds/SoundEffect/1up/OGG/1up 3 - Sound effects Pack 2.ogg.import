@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cyh136lb4idq"
+path="res://.godot/imported/1up 3 - Sound effects Pack 2.ogg-a6cda7e5dd823ceec7fec2e0c9913f66.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/1up/OGG/1up 3 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/1up 3 - Sound effects Pack 2.ogg-a6cda7e5dd823ceec7fec2e0c9913f66.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

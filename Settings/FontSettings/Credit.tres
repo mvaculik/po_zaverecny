@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://jjfcoue1kihn"]
+
+[ext_resource type="FontFile" uid="uid://b42k182oavf3x" path="res://PirateSprite/Font/Quicksand-SemiBold.ttf" id="1_lxqco"]
+
+[resource]
+font = ExtResource("1_lxqco")
+font_size = 18

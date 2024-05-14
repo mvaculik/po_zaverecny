@@ -1,0 +1,82 @@
+[gd_scene load_steps=16 format=3 uid="uid://dxgu2v65sqfnd"]
+
+[ext_resource type="Script" path="res://Scripts/Interactables/Chest.gd" id="1_a8vo2"]
+[ext_resource type="Texture2D" uid="uid://kdgbioktlwi7" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/8.png" id="1_u1osr"]
+[ext_resource type="Texture2D" uid="uid://brjpcb8h7p2pg" path="res://PirateSprite/Sprites/Interactable/Chest/Idle/1.png" id="1_vw25u"]
+[ext_resource type="Texture2D" uid="uid://c416jcs12ohcr" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/1.png" id="2_1glme"]
+[ext_resource type="Texture2D" uid="uid://dfsey8ub5cxfg" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/2.png" id="3_grjvd"]
+[ext_resource type="Texture2D" uid="uid://dhhlcbdxo4su0" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/3.png" id="4_5q0wm"]
+[ext_resource type="Texture2D" uid="uid://c6o8bsmafcbc6" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/4.png" id="5_ikoff"]
+[ext_resource type="Texture2D" uid="uid://bu0vfraney822" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/5.png" id="6_xlk8h"]
+[ext_resource type="Texture2D" uid="uid://dde17huxtw56e" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/6.png" id="7_m5fth"]
+[ext_resource type="Texture2D" uid="uid://b543m3qtmvhkk" path="res://PirateSprite/Sprites/Interactable/Chest/Unlocked/7.png" id="8_khej1"]
+
+[sub_resource type="Animation" id="Animation_mkciu"]
+resource_name = "Locked"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Chest:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_vw25u")]
+}
+
+[sub_resource type="Animation" id="Animation_s7a64"]
+resource_name = "Unlocked"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Chest:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("2_1glme"), ExtResource("3_grjvd"), ExtResource("4_5q0wm"), ExtResource("5_ikoff"), ExtResource("6_xlk8h"), ExtResource("7_m5fth"), ExtResource("8_khej1"), ExtResource("1_u1osr")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3nbyo"]
+_data = {
+"Locked": SubResource("Animation_mkciu"),
+"Unlocked": SubResource("Animation_s7a64")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_km643"]
+size = Vector2(30, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5q2x4"]
+size = Vector2(66, 25)
+
+[node name="Chest" type="StaticBody2D"]
+script = ExtResource("1_a8vo2")
+
+[node name="Chest" type="Sprite2D" parent="."]
+position = Vector2(0, -16)
+texture = ExtResource("1_vw25u")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Locked"
+libraries = {
+"": SubResource("AnimationLibrary_3nbyo")
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -12.5)
+shape = SubResource("RectangleShape2D_km643")
+
+[node name="Area2D" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -12.5)
+shape = SubResource("RectangleShape2D_5q2x4")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

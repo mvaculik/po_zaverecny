@@ -1,0 +1,96 @@
+[gd_scene load_steps=7 format=3 uid="uid://b2olkil2dl7s8"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/DialogChat.gd" id="1_8ypap"]
+[ext_resource type="FontFile" uid="uid://cn5odjput1dqk" path="res://PirateSprite/Font/Quicksand-Bold.ttf" id="2_gp6tp"]
+[ext_resource type="FontFile" uid="uid://b42k182oavf3x" path="res://PirateSprite/Font/Quicksand-SemiBold.ttf" id="3_k4xga"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_33ex0"]
+bg_color = Color(0.207843, 0.207843, 0.203922, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="LabelSettings" id="LabelSettings_xl0aw"]
+font = ExtResource("2_gp6tp")
+font_size = 24
+
+[sub_resource type="LabelSettings" id="LabelSettings_kmabo"]
+font = ExtResource("3_k4xga")
+font_size = 28
+
+[node name="Dialog" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8ypap")
+dialog_text = [&"Wah lelah juga yah ....", &"Akhirnya, aku menemukan sebuah pulau yang terlihat sangat menarik untuk di jelajahi untuk mengasah kemampuan.", &"Aku harap bisa berlatih disini dan bertambah kuat sehingga aku bisa mencari harta karun yang kakek dulu pernah bilang padaku pada saat kecil..", &"Aku ingin memenuhi permintaan kakekku itu dan menemukan harta karun yang tersembunyi tersebut!!!"]
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = -166.0
+offset_right = 844.0
+offset_bottom = -8.0
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_33ex0")
+
+[node name="Panel2" type="Panel" parent="Panel"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -48.0
+offset_right = 171.0
+offset_bottom = 3.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_33ex0")
+
+[node name="Label" type="Label" parent="Panel/Panel2"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 9.0
+offset_right = 136.0
+offset_bottom = 42.0
+text = "Tutorial"
+label_settings = SubResource("LabelSettings_xl0aw")
+autowrap_mode = 1
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 15.0
+offset_right = 814.0
+offset_bottom = 110.0
+label_settings = SubResource("LabelSettings_kmabo")
+autowrap_mode = 3
+
+[node name="Next" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 733.0
+offset_top = -56.0
+offset_right = 843.0
+offset_bottom = -8.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.843137, 0.843137, 0.843137, 1)
+theme_override_colors/font_hover_color = Color(0.635294, 0.635294, 0.635294, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_gp6tp")
+theme_override_font_sizes/font_size = 23
+text = "NEXT >>"
+flat = true
+
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]

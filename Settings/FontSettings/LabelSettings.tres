@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://cf34xomloh8il"]
+
+[ext_resource type="FontFile" uid="uid://ckk4cbv0sy8wt" path="res://PirateSprite/Font/kenvector_future_thin.ttf" id="1_nee1e"]
+
+[resource]
+line_spacing = 0.0
+font = ExtResource("1_nee1e")
+font_size = 18

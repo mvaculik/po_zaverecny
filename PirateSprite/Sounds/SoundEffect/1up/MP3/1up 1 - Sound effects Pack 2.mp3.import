@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhu26s1d5mt60"
+path="res://.godot/imported/1up 1 - Sound effects Pack 2.mp3-0dfd4284963ee1e63ad2e42976a403d2.mp3str"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/1up/MP3/1up 1 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/1up 1 - Sound effects Pack 2.mp3-0dfd4284963ee1e63ad2e42976a403d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

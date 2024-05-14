@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=3 uid="uid://b7a1dtrlm1pkk"]
+
+[ext_resource type="Script" path="res://Scripts/Main/Epilog.gd" id="1_42y7f"]
+[ext_resource type="FontFile" uid="uid://cn5odjput1dqk" path="res://PirateSprite/Font/Quicksand-Bold.ttf" id="1_ij0q6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ctoy4"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_sh4qc"]
+font = ExtResource("1_ij0q6")
+font_size = 32
+font_color = Color(0.960784, 0.960784, 0.960784, 1)
+
+[node name="Epilog" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_42y7f")
+plot_text = [&"Po otevření truhly tam bylo hodně zlata a drahokamů patřících jeho předkům.."]
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ctoy4")
+
+[node name="Prolog" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 94.0
+offset_top = -110.0
+offset_right = -77.0
+offset_bottom = 113.0
+grow_horizontal = 2
+grow_vertical = 2
+label_settings = SubResource("LabelSettings_sh4qc")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 715.0
+offset_top = 415.0
+offset_right = 835.0
+offset_bottom = 457.0
+theme_override_font_sizes/font_size = 24
+text = "SKIP >>>"
+flat = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

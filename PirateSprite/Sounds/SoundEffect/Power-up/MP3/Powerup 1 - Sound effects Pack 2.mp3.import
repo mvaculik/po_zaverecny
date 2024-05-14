@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dd414i386uhbu"
+path="res://.godot/imported/Powerup 1 - Sound effects Pack 2.mp3-bf12198365d7b96bc912847c2ee3dfca.mp3str"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Power-up/MP3/Powerup 1 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Powerup 1 - Sound effects Pack 2.mp3-bf12198365d7b96bc912847c2ee3dfca.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

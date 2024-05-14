@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rrdkicouf7xf"
+path="res://.godot/imported/Coins 5 - Sound effects Pack 2.wav-d0f9718b2448145578acf1ecf305869e.sample"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Coins/WAV/Coins 5 - Sound effects Pack 2.wav"
+dest_files=["res://.godot/imported/Coins 5 - Sound effects Pack 2.wav-d0f9718b2448145578acf1ecf305869e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

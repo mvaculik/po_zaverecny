@@ -1,0 +1,114 @@
+[gd_scene load_steps=18 format=3 uid="uid://c7f23i5v5u1hj"]
+
+[ext_resource type="Script" path="res://Scripts/Collectables/AttackPotion.gd" id="1_cuaok"]
+[ext_resource type="Texture2D" uid="uid://bex0s7s7h0lj" path="res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/01.png" id="1_eheg4"]
+[ext_resource type="Texture2D" uid="uid://c7pac67gertie" path="res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/02.png" id="2_yo0xm"]
+[ext_resource type="Texture2D" uid="uid://6g0niphmm7gy" path="res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/03.png" id="3_kdvow"]
+[ext_resource type="Texture2D" uid="uid://bkvrwfuv1sjcy" path="res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/04.png" id="4_rax02"]
+[ext_resource type="AudioStream" uid="uid://d3e0okgprg3k7" path="res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 3 - Sound effects Pack 2.wav" id="5_d3mbd"]
+[ext_resource type="Texture2D" uid="uid://d0hliptss1rm" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/01.png" id="7_u48xf"]
+[ext_resource type="Texture2D" uid="uid://cql67h2l7ko66" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/02.png" id="8_ka23l"]
+[ext_resource type="Texture2D" uid="uid://cs85v7worcqkg" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/03.png" id="9_nmqkm"]
+[ext_resource type="Texture2D" uid="uid://dkmyx8rohpdd4" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/04.png" id="10_cg7te"]
+[ext_resource type="Texture2D" uid="uid://cws0p1nor82k4" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/05.png" id="11_aq4g5"]
+[ext_resource type="Texture2D" uid="uid://bwmiiy44fyf5d" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/06.png" id="12_7ojx5"]
+[ext_resource type="Texture2D" uid="uid://b0xu7xfqp02r5" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/07.png" id="13_2npnn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u85ro"]
+size = Vector2(14, 18)
+
+[sub_resource type="Animation" id="Animation_x5sdt"]
+resource_name = "Idle"
+length = 0.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Red:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("7_u48xf"), ExtResource("8_ka23l"), ExtResource("9_nmqkm"), ExtResource("10_cg7te"), ExtResource("11_aq4g5"), ExtResource("12_7ojx5"), ExtResource("13_2npnn")]
+}
+
+[sub_resource type="Animation" id="Animation_k6v0w"]
+resource_name = "Get"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Red:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_eheg4"), ExtResource("2_yo0xm"), ExtResource("3_kdvow"), ExtResource("4_rax02")]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"hide"
+}]
+}
+tracks/2/type = "audio"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Get")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"clips": [{
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource("5_d3mbd")
+}],
+"times": PackedFloat32Array(0)
+}
+tracks/2/use_blend = true
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pnvfc"]
+_data = {
+"Get": SubResource("Animation_k6v0w"),
+"Idle": SubResource("Animation_x5sdt")
+}
+
+[node name="AttackPotion" type="Node2D"]
+script = ExtResource("1_cuaok")
+
+[node name="Red" type="Sprite2D" parent="."]
+texture = ExtResource("1_eheg4")
+
+[node name="Getbox" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Getbox"]
+shape = SubResource("RectangleShape2D_u85ro")
+
+[node name="Get" type="AudioStreamPlayer2D" parent="."]
+volume_db = 18.0
+bus = &"Sfx"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 60.0
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Idle"
+libraries = {
+"": SubResource("AnimationLibrary_pnvfc")
+}
+
+[connection signal="area_entered" from="Getbox" to="." method="_on_getbox_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

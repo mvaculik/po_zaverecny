@@ -1,0 +1,290 @@
+[gd_scene load_steps=19 format=3 uid="uid://cqeslp5545teb"]
+
+[ext_resource type="Texture2D" uid="uid://e5kkf05u8q1d" path="res://PirateSprite/Sprites/Decoration/Background/BG Image.png" id="1_ufjp1"]
+[ext_resource type="Texture2D" uid="uid://clxr8nujgsofb" path="res://PirateSprite/Sprites/Decoration/Background/Small Cloud 1.png" id="2_40e71"]
+[ext_resource type="Texture2D" uid="uid://irktiskway7q" path="res://PirateSprite/Sprites/Decoration/Background/Additional Sky.png" id="2_nf6cm"]
+[ext_resource type="Texture2D" uid="uid://2b7scimplpic" path="res://PirateSprite/Sprites/Decoration/Background/Additional Water.png" id="3_bmvt0"]
+[ext_resource type="Texture2D" uid="uid://d2wdmww5caj6j" path="res://PirateSprite/Sprites/Decoration/Background/Small Cloud 2.png" id="3_hlct6"]
+[ext_resource type="Texture2D" uid="uid://dkvfohftkx8jf" path="res://PirateSprite/Sprites/Decoration/Background/Small Cloud 3.png" id="4_gh5nn"]
+[ext_resource type="Texture2D" uid="uid://bkvbwtfprt1k1" path="res://PirateSprite/Sprites/Decoration/Background/Big Clouds.png" id="5_7bwx8"]
+[ext_resource type="Texture2D" uid="uid://p3nhmrglblpi" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 03.png" id="6_56t0y"]
+[ext_resource type="Texture2D" uid="uid://ckm2pmicvb5w7" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 03.png" id="7_chnfd"]
+[ext_resource type="Texture2D" uid="uid://drfw22ivgjilp" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 01.png" id="8_w4xec"]
+[ext_resource type="Texture2D" uid="uid://cavmhm0pv2yjv" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 02.png" id="9_ap1at"]
+[ext_resource type="Texture2D" uid="uid://gaudn38dyfsi" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 04.png" id="10_kjak3"]
+[ext_resource type="Texture2D" uid="uid://bbdqliup0ox7" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 01.png" id="11_mhmco"]
+[ext_resource type="Texture2D" uid="uid://c2edr34gmmr31" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 02.png" id="12_s2x5y"]
+[ext_resource type="Texture2D" uid="uid://bxcy1ruo633j2" path="res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 04.png" id="13_kt2wa"]
+
+[sub_resource type="GDScript" id="GDScript_u52ic"]
+script/source = "extends ParallaxBackground
+
+@export var scrolling_speed = 60
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	$Reflection/AnimationPlayer.play(\"Reflection\")
+	scroll_base_offset.x -= scrolling_speed*delta
+"
+
+[sub_resource type="Animation" id="Animation_7jhjq"]
+resource_name = "Reflection"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Big:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("8_w4xec"), ExtResource("9_ap1at"), ExtResource("6_56t0y"), ExtResource("10_kjak3")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Big2:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("8_w4xec"), ExtResource("9_ap1at"), ExtResource("6_56t0y"), ExtResource("10_kjak3")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Big4:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("8_w4xec"), ExtResource("9_ap1at"), ExtResource("6_56t0y"), ExtResource("10_kjak3")]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Medium:texture")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("11_mhmco"), ExtResource("12_s2x5y"), ExtResource("7_chnfd"), ExtResource("13_kt2wa")]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Medium2:texture")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("11_mhmco"), ExtResource("12_s2x5y"), ExtResource("7_chnfd"), ExtResource("13_kt2wa")]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Medium4:texture")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("11_mhmco"), ExtResource("12_s2x5y"), ExtResource("7_chnfd"), ExtResource("13_kt2wa")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_umnt1"]
+_data = {
+"Reflection": SubResource("Animation_7jhjq")
+}
+
+[node name="BG" type="ParallaxBackground"]
+editor_description = "Parallax Background"
+script = SubResource("GDScript_u52ic")
+scrolling_speed = 100
+
+[node name="Background" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(854, 0)
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+offset_right = 854.0
+offset_bottom = 382.0
+texture = ExtResource("1_ufjp1")
+
+[node name="TextureRect2" type="TextureRect" parent="Background"]
+offset_top = -720.0
+offset_right = 854.0
+texture = ExtResource("2_nf6cm")
+
+[node name="TextureRect3" type="TextureRect" parent="Background"]
+offset_top = 382.0
+offset_right = 854.0
+offset_bottom = 862.0
+texture = ExtResource("3_bmvt0")
+
+[node name="SmallCloud1" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.8, 1)
+motion_mirroring = Vector2(854, 0)
+
+[node name="TextureRect" type="TextureRect" parent="SmallCloud1"]
+offset_left = 36.0
+offset_top = -6.0
+offset_right = 419.0
+offset_bottom = 140.0
+scale = Vector2(0.683122, 0.686318)
+texture = ExtResource("2_40e71")
+
+[node name="TextureRect2" type="TextureRect" parent="SmallCloud1"]
+offset_left = 52.0
+offset_top = -93.0
+offset_right = 194.0
+offset_bottom = -39.0
+scale = Vector2(0.683122, 0.686318)
+texture = ExtResource("2_40e71")
+
+[node name="TextureRect3" type="TextureRect" parent="SmallCloud1"]
+offset_left = 340.0
+offset_top = -157.0
+offset_right = 490.0
+offset_bottom = -100.0
+scale = Vector2(0.53942, 0.561663)
+texture = ExtResource("2_40e71")
+
+[node name="SmallCloud2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(854, 0)
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="SmallCloud2"]
+offset_left = 275.0
+offset_top = -211.0
+offset_right = 408.0
+offset_bottom = -164.0
+scale = Vector2(0.650828, 0.578249)
+texture = ExtResource("3_hlct6")
+
+[node name="TextureRect2" type="TextureRect" parent="SmallCloud2"]
+offset_left = 403.0
+offset_top = -27.0
+offset_right = 671.0
+offset_bottom = 75.0
+scale = Vector2(0.733473, 0.677212)
+texture = ExtResource("3_hlct6")
+
+[node name="TextureRect3" type="TextureRect" parent="SmallCloud2"]
+offset_left = 624.0
+offset_top = 2.0
+offset_right = 1077.0
+offset_bottom = 174.0
+scale = Vector2(0.435329, 0.424)
+texture = ExtResource("3_hlct6")
+
+[node name="TextureRect4" type="TextureRect" parent="SmallCloud2"]
+offset_left = 235.0
+offset_top = -45.0
+offset_right = 561.0
+offset_bottom = 79.0
+scale = Vector2(0.425949, 0.381699)
+texture = ExtResource("3_hlct6")
+
+[node name="SmallCloud3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(854, 0)
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="SmallCloud3"]
+offset_left = 722.0
+offset_top = 107.0
+offset_right = 862.0
+offset_bottom = 173.0
+scale = Vector2(0.783148, 0.652161)
+texture = ExtResource("4_gh5nn")
+
+[node name="TextureRect2" type="TextureRect" parent="SmallCloud3"]
+offset_left = 273.0
+offset_top = 76.0
+offset_right = 768.0
+offset_bottom = 264.0
+scale = Vector2(0.680336, 0.531128)
+texture = ExtResource("4_gh5nn")
+
+[node name="TextureRect3" type="TextureRect" parent="SmallCloud3"]
+offset_left = 677.0
+offset_top = -135.0
+offset_right = 834.0
+offset_bottom = -75.0
+scale = Vector2(0.50113, 0.418699)
+texture = ExtResource("4_gh5nn")
+
+[node name="TextureRect4" type="TextureRect" parent="SmallCloud3"]
+offset_left = 475.0
+offset_top = -104.0
+offset_right = 676.0
+offset_bottom = -28.0
+scale = Vector2(0.855009, 0.641586)
+texture = ExtResource("4_gh5nn")
+
+[node name="BigCloud" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(854, 0)
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="BigCloud"]
+offset_top = 102.0
+offset_right = 854.0
+offset_bottom = 258.0
+texture = ExtResource("5_7bwx8")
+
+[node name="Reflection" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(854, 0)
+metadata/_edit_lock_ = true
+
+[node name="Big" type="Sprite2D" parent="Reflection"]
+position = Vector2(86, 274.75)
+scale = Vector2(0.870589, 1.85)
+texture = ExtResource("8_w4xec")
+
+[node name="Big2" type="Sprite2D" parent="Reflection"]
+position = Vector2(352.198, 273.75)
+scale = Vector2(0.902331, 2.05)
+texture = ExtResource("8_w4xec")
+
+[node name="Big4" type="Sprite2D" parent="Reflection"]
+position = Vector2(666, 274)
+scale = Vector2(0.909293, 2.225)
+texture = ExtResource("8_w4xec")
+
+[node name="Medium" type="Sprite2D" parent="Reflection"]
+position = Vector2(212, 286)
+scale = Vector2(1.75872, 1.41716)
+texture = ExtResource("11_mhmco")
+
+[node name="Medium2" type="Sprite2D" parent="Reflection"]
+position = Vector2(795, 287)
+scale = Vector2(1.55298, 2.72227)
+texture = ExtResource("11_mhmco")
+
+[node name="Medium4" type="Sprite2D" parent="Reflection"]
+position = Vector2(522, 281)
+scale = Vector2(1.5184, 2.58406)
+texture = ExtResource("11_mhmco")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Reflection"]
+libraries = {
+"": SubResource("AnimationLibrary_umnt1")
+}
+autoplay = "Reflection"

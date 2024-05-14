@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bfl0tm2aux7b7"
+path="res://.godot/imported/Long Road Ahead.ogg-af3d1502e38755247cb2f92a43b3f11e.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/Backsound/Overworld/Long Road Ahead.ogg"
+dest_files=["res://.godot/imported/Long Road Ahead.ogg-af3d1502e38755247cb2f92a43b3f11e.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

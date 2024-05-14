@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3 uid="uid://cofrm2q5m7slc"]
+
+[ext_resource type="Script" path="res://Scripts/Traps/FallingSpikes.gd" id="1_eoh8n"]
+[ext_resource type="Texture2D" uid="uid://cbfaoffnja2vr" path="res://PirateSprite/Sprites/Interactable/Spikes/Spikes.png" id="1_gfl6n"]
+[ext_resource type="AudioStream" uid="uid://q56o6n24ckek" path="res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 6 - Sound effects Pack 2.wav" id="3_uo3lj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7uww"]
+size = Vector2(40, 722)
+
+[sub_resource type="Animation" id="Animation_xxshc"]
+resource_name = "Shake"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 16), Vector2(5, 16), Vector2(-5, 16), Vector2(1, 16)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"fall"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3jfic"]
+_data = {
+"Shake": SubResource("Animation_xxshc")
+}
+
+[node name="FallingSpikes" type="Node2D"]
+script = ExtResource("1_eoh8n")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 16)
+rotation = 3.14159
+texture = ExtResource("1_gfl6n")
+
+[node name="Hitbox" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Hitbox"]
+polygon = PackedVector2Array(-14, 0, -14, 9, -11, 15, -3, 13, 5, 16, 14, 11, 17, 6, 17, 0)
+
+[node name="PlayerdDetect" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerdDetect"]
+position = Vector2(2, 361)
+shape = SubResource("RectangleShape2D_r7uww")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3jfic")
+}
+
+[node name="Fall" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_uo3lj")
+
+[connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="area_entered" from="PlayerdDetect" to="." method="_on_playerd_detect_area_entered"]

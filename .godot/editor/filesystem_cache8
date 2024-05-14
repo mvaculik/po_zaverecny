@@ -1,0 +1,827 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715684422
+default_bus_layout.tres::AudioBusLayout::9006825634241575042::1715681643::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1715674065::0::1::::<><>::
+Icon.png::CompressedTexture2D::7766756513026411652::1715672600::1715674674::1::::<><>::
+::res://PirateSprite/::1715681625
+::res://PirateSprite/Font/::1715674385
+kenvector_future.ttf::FontFile::6323290267789753002::1715674064::1715674385::1::::<><>::
+kenvector_future_thin.ttf::FontFile::5497138031810325699::1715674064::1715674385::1::::<><>::
+Quicksand-Bold.ttf::FontFile::5748083559400203894::1715674064::1715674385::1::::<><>::
+Quicksand-Medium.ttf::FontFile::2998484134841783918::1715674064::1715674385::1::::<><>::
+Quicksand-Regular.ttf::FontFile::2139289581739678533::1715674064::1715674385::1::::<><>::
+Quicksand-SemiBold.ttf::FontFile::4478290724742048139::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Poster/::1715674386
+Poster1.png::CompressedTexture2D::5272205755757480082::1715672078::1715674386::1::::<><>::
+Poster2.jpg::CompressedTexture2D::4340816944155004090::1715674320::1715674386::1::::<><>::
+Poster3.jpg::CompressedTexture2D::961662010717052570::1715674325::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/::1715674147
+::res://PirateSprite/Sounds/Backsound/::1715674113
+::res://PirateSprite/Sounds/Backsound/Overworld/::1715674385
+Journey Across the Blue.ogg::AudioStreamOggVorbis::2907494630248665377::1715674064::1715674385::1::::<><>::
+Long Road Ahead.ogg::AudioStreamOggVorbis::2761625584098863866::1715674064::1715674385::1::::<><>::
+On The Move.ogg::AudioStreamOggVorbis::8583734215573759995::1715674064::1715674385::1::::<><>::
+We're Bird People Now.ogg::AudioStreamOggVorbis::85163228517931741::1715674064::1715674385::1::::<><>::
+World Travelers.ogg::AudioStreamOggVorbis::4367732916991056062::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/::1715674147
+::res://PirateSprite/Sounds/SoundEffect/1up/::1715674147
+::res://PirateSprite/Sounds/SoundEffect/1up/FLAC/::1715674147
+::res://PirateSprite/Sounds/SoundEffect/1up/MP3/::1715674385
+1up 1 - Sound effects Pack 2.mp3::AudioStreamMP3::7693567215804580131::1715674064::1715674385::1::::<><>::
+1up 2 - Sound effects Pack 2.mp3::AudioStreamMP3::2596265138280530388::1715674064::1715674385::1::::<><>::
+1up 3 - Sound effects Pack 2.mp3::AudioStreamMP3::4480799129733006661::1715674064::1715674385::1::::<><>::
+1up 4 - Sound effects Pack 2.mp3::AudioStreamMP3::1348128627317828146::1715674064::1715674385::1::::<><>::
+1up 5 - Sound effects Pack 2.mp3::AudioStreamMP3::2474233818636453651::1715674064::1715674385::1::::<><>::
+1up 6 - Sound effects Pack 2.mp3::AudioStreamMP3::2427362985910021280::1715674064::1715674385::1::::<><>::
+1up 7 - Sound effects Pack 2.mp3::AudioStreamMP3::2488535502219931783::1715674064::1715674385::1::::<><>::
+1up 8 - Sound effects Pack 2.mp3::AudioStreamMP3::4713782002085404903::1715674064::1715674385::1::::<><>::
+1up 9 - Sound effects Pack 2.mp3::AudioStreamMP3::2819410453019899759::1715674064::1715674385::1::::<><>::
+1up 10 - Sound effects Pack 2.mp3::AudioStreamMP3::7610012437647284995::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/1up/OGG/::1715674385
+1up 1 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::7705874461897497566::1715674064::1715674385::1::::<><>::
+1up 2 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::6281310281507038849::1715674064::1715674385::1::::<><>::
+1up 3 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::190395722009408046::1715674064::1715674385::1::::<><>::
+1up 4 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::458111696714780664::1715674064::1715674385::1::::<><>::
+1up 5 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::861600914517564138::1715674064::1715674385::1::::<><>::
+1up 6 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::7777630963667510899::1715674064::1715674385::1::::<><>::
+1up 7 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2390923054268944383::1715674064::1715674385::1::::<><>::
+1up 8 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2065654637619575714::1715674064::1715674385::1::::<><>::
+1up 9 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::14267620890079431::1715674064::1715674385::1::::<><>::
+1up 10 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::5172932729131007580::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/1up/WAV/::1715674386
+1up 1 - Sound effects Pack 2.wav::AudioStreamWAV::387803271123133988::1715674064::1715674386::1::::<><>::
+1up 2 - Sound effects Pack 2.wav::AudioStreamWAV::4365989958047256648::1715674064::1715674386::1::::<><>::
+1up 3 - Sound effects Pack 2.wav::AudioStreamWAV::9134350645101124740::1715674064::1715674386::1::::<><>::
+1up 4 - Sound effects Pack 2.wav::AudioStreamWAV::5218264231926442231::1715674064::1715674386::1::::<><>::
+1up 5 - Sound effects Pack 2.wav::AudioStreamWAV::105271680288257623::1715674064::1715674386::1::::<><>::
+1up 6 - Sound effects Pack 2.wav::AudioStreamWAV::1186861708292652730::1715674064::1715674386::1::::<><>::
+1up 7 - Sound effects Pack 2.wav::AudioStreamWAV::8038324769553592098::1715674064::1715674386::1::::<><>::
+1up 8 - Sound effects Pack 2.wav::AudioStreamWAV::8715171623732453207::1715674064::1715674386::1::::<><>::
+1up 9 - Sound effects Pack 2.wav::AudioStreamWAV::9033763595891775496::1715674064::1715674386::1::::<><>::
+1up 10 - Sound effects Pack 2.wav::AudioStreamWAV::7655920488267509375::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Coins/::1715674142
+::res://PirateSprite/Sounds/SoundEffect/Coins/FLAC/::1715674131
+::res://PirateSprite/Sounds/SoundEffect/Coins/MP3/::1715674385
+Coins 1 - Sound effects Pack 2.mp3::AudioStreamMP3::520198515408489763::1715674064::1715674385::1::::<><>::
+Coins 2 - Sound effects Pack 2.mp3::AudioStreamMP3::7147241805884272612::1715674064::1715674385::1::::<><>::
+Coins 3 - Sound effects Pack 2.mp3::AudioStreamMP3::4869286249141938206::1715674064::1715674385::1::::<><>::
+Coins 4 - Sound effects Pack 2.mp3::AudioStreamMP3::7749143903651658735::1715674064::1715674385::1::::<><>::
+Coins 5 - Sound effects Pack 2.mp3::AudioStreamMP3::6994617025504233592::1715674064::1715674385::1::::<><>::
+Coins 6 - Sound effects Pack 2.mp3::AudioStreamMP3::8794067895699108017::1715674064::1715674385::1::::<><>::
+Coins 7 - Sound effects Pack 2.mp3::AudioStreamMP3::4119240849547309546::1715674064::1715674385::1::::<><>::
+Coins 8 - Sound effects Pack 2.mp3::AudioStreamMP3::4201566565200673115::1715674064::1715674385::1::::<><>::
+Coins 9 - Sound effects Pack 2.mp3::AudioStreamMP3::8176810755220035440::1715674064::1715674385::1::::<><>::
+Coins 10 - Sound effects Pack 2.mp3::AudioStreamMP3::7271546341381764099::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Coins/OGG/::1715674385
+Coins 1 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2782530560251661529::1715674064::1715674385::1::::<><>::
+Coins 2 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::1520831733316276164::1715674064::1715674385::1::::<><>::
+Coins 3 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::8386622611691512053::1715674064::1715674385::1::::<><>::
+Coins 4 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2831191093018395732::1715674064::1715674385::1::::<><>::
+Coins 5 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4281162162307544920::1715674064::1715674385::1::::<><>::
+Coins 6 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::8990797829804089094::1715674064::1715674385::1::::<><>::
+Coins 7 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4154866929158237159::1715674064::1715674385::1::::<><>::
+Coins 8 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::1211740661954528541::1715674064::1715674385::1::::<><>::
+Coins 9 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4122447004587144433::1715674064::1715674385::1::::<><>::
+Coins 10 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::7495853797100132903::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Coins/WAV/::1715674386
+Coins 1 - Sound effects Pack 2.wav::AudioStreamWAV::2624624709250511143::1715674064::1715674386::1::::<><>::
+Coins 2 - Sound effects Pack 2.wav::AudioStreamWAV::8589028077336943241::1715674064::1715674386::1::::<><>::
+Coins 3 - Sound effects Pack 2.wav::AudioStreamWAV::2358806320012701786::1715674064::1715674386::1::::<><>::
+Coins 4 - Sound effects Pack 2.wav::AudioStreamWAV::1399178577148112511::1715674064::1715674386::1::::<><>::
+Coins 5 - Sound effects Pack 2.wav::AudioStreamWAV::1228505196522382011::1715674064::1715674386::1::::<><>::
+Coins 6 - Sound effects Pack 2.wav::AudioStreamWAV::3850963966768872429::1715674064::1715674386::1::::<><>::
+Coins 7 - Sound effects Pack 2.wav::AudioStreamWAV::2247865721317141179::1715674064::1715674386::1::::<><>::
+Coins 8 - Sound effects Pack 2.wav::AudioStreamWAV::8882625396593513022::1715674064::1715674386::1::::<><>::
+Coins 9 - Sound effects Pack 2.wav::AudioStreamWAV::1852681903128966971::1715674064::1715674386::1::::<><>::
+Coins 10 - Sound effects Pack 2.wav::AudioStreamWAV::3071956811671541026::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Hit/::1715674147
+::res://PirateSprite/Sounds/SoundEffect/Hit/FLAC/::1715674147
+::res://PirateSprite/Sounds/SoundEffect/Hit/MP3/::1715674385
+Hit 1 - Sound effects Pack 2.mp3::AudioStreamMP3::1801749456764169840::1715674064::1715674385::1::::<><>::
+Hit 2 - Sound effects Pack 2.mp3::AudioStreamMP3::6941002688847688048::1715674064::1715674385::1::::<><>::
+Hit 3 - Sound effects Pack 2.mp3::AudioStreamMP3::739969321045925317::1715674064::1715674385::1::::<><>::
+Hit 4 - Sound effects Pack 2.mp3::AudioStreamMP3::6949912891789417547::1715674064::1715674385::1::::<><>::
+Hit 5 - Sound effects Pack 2.mp3::AudioStreamMP3::5258780174137798447::1715674064::1715674385::1::::<><>::
+Hit 6 - Sound effects Pack 2.mp3::AudioStreamMP3::5398530314346062586::1715674064::1715674385::1::::<><>::
+Hit 7 - Sound effects Pack 2.mp3::AudioStreamMP3::129352602106746486::1715674064::1715674385::1::::<><>::
+Hit 8 - Sound effects Pack 2.mp3::AudioStreamMP3::5456534061533538484::1715674064::1715674385::1::::<><>::
+Hit 9 - Sound effects Pack 2.mp3::AudioStreamMP3::6253943833249808439::1715674064::1715674385::1::::<><>::
+Hit 10 - Sound effects Pack 2.mp3::AudioStreamMP3::7901642349954911661::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Hit/OGG/::1715674385
+Hit 1 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::7971782336292942972::1715674064::1715674385::1::::<><>::
+Hit 2 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::1265376291464000462::1715674064::1715674385::1::::<><>::
+Hit 3 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3394874303372207748::1715674064::1715674385::1::::<><>::
+Hit 4 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2096885469133972533::1715674064::1715674385::1::::<><>::
+Hit 5 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3573020184611965864::1715674064::1715674385::1::::<><>::
+Hit 6 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4482195050731410510::1715674064::1715674385::1::::<><>::
+Hit 7 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2651933510302004988::1715674064::1715674385::1::::<><>::
+Hit 8 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3908032755901811881::1715674064::1715674385::1::::<><>::
+Hit 9 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3314555061677886443::1715674064::1715674385::1::::<><>::
+Hit 10 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::1867575291711187540::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Hit/WAV/::1715674386
+Hit 1 - Sound effects Pack 2.wav::AudioStreamWAV::6321539188463967779::1715674064::1715674386::1::::<><>::
+Hit 2 - Sound effects Pack 2.wav::AudioStreamWAV::1844392456423909353::1715674064::1715674386::1::::<><>::
+Hit 3 - Sound effects Pack 2.wav::AudioStreamWAV::4590957286619859542::1715674064::1715674386::1::::<><>::
+Hit 4 - Sound effects Pack 2.wav::AudioStreamWAV::5796685767141857470::1715674064::1715674386::1::::<><>::
+Hit 5 - Sound effects Pack 2.wav::AudioStreamWAV::3941667956000926051::1715674064::1715674386::1::::<><>::
+Hit 6 - Sound effects Pack 2.wav::AudioStreamWAV::6663663773064918474::1715674064::1715674386::1::::<><>::
+Hit 7 - Sound effects Pack 2.wav::AudioStreamWAV::3539809699354231369::1715674064::1715674386::1::::<><>::
+Hit 8 - Sound effects Pack 2.wav::AudioStreamWAV::4244019258693606160::1715674064::1715674386::1::::<><>::
+Hit 9 - Sound effects Pack 2.wav::AudioStreamWAV::4875359687588023680::1715674064::1715674386::1::::<><>::
+Hit 10 - Sound effects Pack 2.wav::AudioStreamWAV::7820920808917481549::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Jump/::1715674131
+::res://PirateSprite/Sounds/SoundEffect/Jump/FLAC/::1715674124
+::res://PirateSprite/Sounds/SoundEffect/Jump/MP3/::1715674385
+Jump 1 - Sound effects Pack 2.mp3::AudioStreamMP3::6702079818974288744::1715674064::1715674385::1::::<><>::
+Jump 2 - Sound effects Pack 2.mp3::AudioStreamMP3::1356232042018588056::1715674064::1715674385::1::::<><>::
+Jump 3 - Sound effects Pack 2.mp3::AudioStreamMP3::7319470935803779870::1715674064::1715674385::1::::<><>::
+Jump 4 - Sound effects Pack 2.mp3::AudioStreamMP3::6540041690336963704::1715674064::1715674385::1::::<><>::
+Jump 5 - Sound effects Pack 2.mp3::AudioStreamMP3::78293416239322828::1715674064::1715674385::1::::<><>::
+Jump 6 - Sound effects Pack 2.mp3::AudioStreamMP3::1032996405203943135::1715674064::1715674385::1::::<><>::
+Jump 7 - Sound effects Pack 2.mp3::AudioStreamMP3::5465990247525825857::1715674064::1715674385::1::::<><>::
+Jump 8 - Sound effects Pack 2.mp3::AudioStreamMP3::7713788848685792673::1715674064::1715674385::1::::<><>::
+Jump 9 - Sound effects Pack 2.mp3::AudioStreamMP3::818410600436309078::1715674064::1715674385::1::::<><>::
+Jump 10 - Sound effects Pack 2.mp3::AudioStreamMP3::243641162511599378::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Jump/OGG/::1715674385
+Jump 1 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::6022937409829072974::1715674064::1715674385::1::::<><>::
+Jump 2 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::6417085962746966408::1715674064::1715674385::1::::<><>::
+Jump 3 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3200330709345767875::1715674064::1715674385::1::::<><>::
+Jump 4 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::9067153722402725569::1715674064::1715674385::1::::<><>::
+Jump 5 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::1261897561379286759::1715674064::1715674385::1::::<><>::
+Jump 6 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::8045216185989974232::1715674064::1715674385::1::::<><>::
+Jump 7 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4081998530644882316::1715674064::1715674385::1::::<><>::
+Jump 8 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::7058200116001212405::1715674064::1715674385::1::::<><>::
+Jump 9 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::2308701129756253840::1715674064::1715674385::1::::<><>::
+Jump 10 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::5393892398032475197::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Jump/WAV/::1715674386
+Jump 1 - Sound effects Pack 2.wav::AudioStreamWAV::297722610885299570::1715674064::1715674386::1::::<><>::
+Jump 2 - Sound effects Pack 2.wav::AudioStreamWAV::3278539046978803387::1715674064::1715674386::1::::<><>::
+Jump 3 - Sound effects Pack 2.wav::AudioStreamWAV::7773195541073635003::1715674064::1715674386::1::::<><>::
+Jump 4 - Sound effects Pack 2.wav::AudioStreamWAV::8782935459475364663::1715674064::1715674386::1::::<><>::
+Jump 5 - Sound effects Pack 2.wav::AudioStreamWAV::3056838321179398::1715674064::1715674386::1::::<><>::
+Jump 6 - Sound effects Pack 2.wav::AudioStreamWAV::1814515248043853814::1715674064::1715674386::1::::<><>::
+Jump 7 - Sound effects Pack 2.wav::AudioStreamWAV::6702061001688749086::1715674064::1715674386::1::::<><>::
+Jump 8 - Sound effects Pack 2.wav::AudioStreamWAV::6278019282485310049::1715674064::1715674386::1::::<><>::
+Jump 9 - Sound effects Pack 2.wav::AudioStreamWAV::7818135725418567908::1715674064::1715674386::1::::<><>::
+Jump 10 - Sound effects Pack 2.wav::AudioStreamWAV::1680549852008182083::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Lose/::1715674142
+::res://PirateSprite/Sounds/SoundEffect/Lose/FLAC/::1715674142
+::res://PirateSprite/Sounds/SoundEffect/Lose/MP3/::1715674385
+Lose 1 - Sound effects Pack 2.mp3::AudioStreamMP3::4002603358926718404::1715674064::1715674385::1::::<><>::
+Lose 2 - Sound effects Pack 2.mp3::AudioStreamMP3::5232156649539387754::1715674064::1715674385::1::::<><>::
+Lose 3 - Sound effects Pack 2.mp3::AudioStreamMP3::7082581557345781301::1715674064::1715674385::1::::<><>::
+Lose 4 - Sound effects Pack 2.mp3::AudioStreamMP3::8091961503669374852::1715674064::1715674385::1::::<><>::
+Lose 5 - Sound effects Pack 2.mp3::AudioStreamMP3::7379506532760952403::1715674064::1715674385::1::::<><>::
+Lose 6 - Sound effects Pack 2.mp3::AudioStreamMP3::8115613547179745343::1715674064::1715674385::1::::<><>::
+Lose 7 - Sound effects Pack 2.mp3::AudioStreamMP3::7740820734848089231::1715674064::1715674385::1::::<><>::
+Lose 8 - Sound effects Pack 2.mp3::AudioStreamMP3::8465029818559949815::1715674064::1715674385::1::::<><>::
+Lose 9 - Sound effects Pack 2.mp3::AudioStreamMP3::2940259054448849937::1715674064::1715674385::1::::<><>::
+Lose 10 - Sound effects Pack 2.mp3::AudioStreamMP3::3641281557250364770::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Lose/OGG/::1715674385
+Lose 1 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::5123531166725375643::1715674064::1715674385::1::::<><>::
+Lose 2 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::5868163593392413150::1715674064::1715674385::1::::<><>::
+Lose 3 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::5470317392507106371::1715674064::1715674385::1::::<><>::
+Lose 4 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::847062649154906314::1715674064::1715674385::1::::<><>::
+Lose 5 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::27041902374587978::1715674064::1715674385::1::::<><>::
+Lose 6 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::5492700339133728591::1715674064::1715674385::1::::<><>::
+Lose 7 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::7645589828371942162::1715674064::1715674385::1::::<><>::
+Lose 8 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::8751835042710791348::1715674064::1715674385::1::::<><>::
+Lose 9 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3422780065893741614::1715674064::1715674385::1::::<><>::
+Lose 10 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4319398626843992436::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Lose/WAV/::1715674386
+Lose 1 - Sound effects Pack 2.wav::AudioStreamWAV::8693953787207713324::1715674064::1715674386::1::::<><>::
+Lose 2 - Sound effects Pack 2.wav::AudioStreamWAV::6590362089094511532::1715674064::1715674386::1::::<><>::
+Lose 3 - Sound effects Pack 2.wav::AudioStreamWAV::1079855716463078526::1715674064::1715674386::1::::<><>::
+Lose 4 - Sound effects Pack 2.wav::AudioStreamWAV::487681392169808198::1715674064::1715674386::1::::<><>::
+Lose 5 - Sound effects Pack 2.wav::AudioStreamWAV::5084065214133349532::1715674064::1715674386::1::::<><>::
+Lose 6 - Sound effects Pack 2.wav::AudioStreamWAV::638934630579297078::1715674064::1715674386::1::::<><>::
+Lose 7 - Sound effects Pack 2.wav::AudioStreamWAV::1903659998900599586::1715674064::1715674386::1::::<><>::
+Lose 8 - Sound effects Pack 2.wav::AudioStreamWAV::9205867551852310262::1715674064::1715674386::1::::<><>::
+Lose 9 - Sound effects Pack 2.wav::AudioStreamWAV::6960004567118421245::1715674064::1715674386::1::::<><>::
+Lose 10 - Sound effects Pack 2.wav::AudioStreamWAV::3904278565039738754::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Power-up/::1715674142
+::res://PirateSprite/Sounds/SoundEffect/Power-up/FLAC/::1715674142
+::res://PirateSprite/Sounds/SoundEffect/Power-up/MP3/::1715674385
+Powerup 1 - Sound effects Pack 2.mp3::AudioStreamMP3::7431326431679218306::1715674064::1715674385::1::::<><>::
+Powerup 2 - Sound effects Pack 2.mp3::AudioStreamMP3::352698883823587271::1715674064::1715674385::1::::<><>::
+Powerup 3 - Sound effects Pack 2.mp3::AudioStreamMP3::5893060472585921256::1715674064::1715674385::1::::<><>::
+Powerup 4 - Sound effects Pack 2.mp3::AudioStreamMP3::2182921217508937273::1715674064::1715674385::1::::<><>::
+Powerup 5 - Sound effects Pack 2.mp3::AudioStreamMP3::214158337052588079::1715674064::1715674385::1::::<><>::
+Powerup 6 - Sound effects Pack 2.mp3::AudioStreamMP3::7426331407037675101::1715674064::1715674385::1::::<><>::
+Powerup 7 - Sound effects Pack 2.mp3::AudioStreamMP3::6461787533137150383::1715674064::1715674385::1::::<><>::
+Powerup 8 - Sound effects Pack 2.mp3::AudioStreamMP3::6372524243776743844::1715674064::1715674385::1::::<><>::
+Powerup 9 - Sound effects Pack 2.mp3::AudioStreamMP3::6628493556112385784::1715674064::1715674385::1::::<><>::
+Powerup 10 - Sound effects Pack 2.mp3::AudioStreamMP3::7170652456881182236::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Power-up/OGG/::1715674385
+Powerup 1 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4375880330149462908::1715674064::1715674385::1::::<><>::
+Powerup 2 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4817497727591822548::1715674064::1715674385::1::::<><>::
+Powerup 3 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::292958118939918793::1715674064::1715674385::1::::<><>::
+Powerup 4 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::6118823600053111840::1715674064::1715674385::1::::<><>::
+Powerup 5 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::3335557240418988368::1715674064::1715674385::1::::<><>::
+Powerup 6 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::8536732546325774019::1715674064::1715674385::1::::<><>::
+Powerup 7 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::1901965731845299602::1715674064::1715674385::1::::<><>::
+Powerup 8 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4053321544985739630::1715674064::1715674385::1::::<><>::
+Powerup 9 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::6049601751061976867::1715674064::1715674385::1::::<><>::
+Powerup 10 - Sound effects Pack 2.ogg::AudioStreamOggVorbis::4285589024829194269::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Power-up/WAV/::1715674386
+Powerup 1 - Sound effects Pack 2.wav::AudioStreamWAV::2850524363842784566::1715674064::1715674386::1::::<><>::
+Powerup 2 - Sound effects Pack 2.wav::AudioStreamWAV::9093554507375918118::1715674064::1715674386::1::::<><>::
+Powerup 3 - Sound effects Pack 2.wav::AudioStreamWAV::2209815168249414671::1715674064::1715674386::1::::<><>::
+Powerup 4 - Sound effects Pack 2.wav::AudioStreamWAV::933007498370606466::1715674064::1715674386::1::::<><>::
+Powerup 5 - Sound effects Pack 2.wav::AudioStreamWAV::3660461426537063056::1715674064::1715674386::1::::<><>::
+Powerup 6 - Sound effects Pack 2.wav::AudioStreamWAV::3191723964638431107::1715674064::1715674386::1::::<><>::
+Powerup 7 - Sound effects Pack 2.wav::AudioStreamWAV::8228312342084182488::1715674064::1715674386::1::::<><>::
+Powerup 8 - Sound effects Pack 2.wav::AudioStreamWAV::7683857139040568514::1715674064::1715674386::1::::<><>::
+Powerup 9 - Sound effects Pack 2.wav::AudioStreamWAV::812106394400501263::1715674064::1715674386::1::::<><>::
+Powerup 10 - Sound effects Pack 2.wav::AudioStreamWAV::7849807691033590288::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/Random/::1715674386
+Game Over 1.wav::AudioStreamWAV::6883003828860739138::1715674064::1715674386::1::::<><>::
+Hit 1.wav::AudioStreamWAV::5740159621402908375::1715674064::1715674386::1::::<><>::
+Jump 1.wav::AudioStreamWAV::8444237134200638339::1715674064::1715674386::1::::<><>::
+Misc 2.wav::AudioStreamWAV::6863316914406620811::1715674064::1715674386::1::::<><>::
+Power Up 1.wav::AudioStreamWAV::4631623177288111308::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sounds/SoundEffect/UI/::1715674386
+click1.ogg::AudioStreamOggVorbis::5713048491840527926::1715674064::1715674385::1::::<><>::
+click2.ogg::AudioStreamOggVorbis::2676908926930081640::1715674064::1715674385::1::::<><>::
+rollover1.ogg::AudioStreamOggVorbis::7311061406959683909::1715674064::1715674385::1::::<><>::
+rollover2.ogg::AudioStreamOggVorbis::8076272273476998404::1715674064::1715674385::1::::<><>::
+Success 1.wav::AudioStreamWAV::3793521589388077433::1715674064::1715674386::1::::<><>::
+switch2.ogg::AudioStreamOggVorbis::8618916500735184283::1715674064::1715674385::1::::<><>::
+switch3.ogg::AudioStreamOggVorbis::3397502320563732257::1715674064::1715674385::1::::<><>::
+::res://PirateSprite/Sprites/::1715681625
+::res://PirateSprite/Sprites/Decoration/::1715674125
+::res://PirateSprite/Sprites/Decoration/Back Palm Trees/::1715674386
+Back Palm Tree Left 01.png::CompressedTexture2D::2093048186152434050::1715674064::1715674386::1::::<><>::
+Back Palm Tree Left 02.png::CompressedTexture2D::880295812372995377::1715674064::1715674386::1::::<><>::
+Back Palm Tree Left 03.png::CompressedTexture2D::7468624193612055239::1715674064::1715674386::1::::<><>::
+Back Palm Tree Left 04.png::CompressedTexture2D::8309746290524527639::1715674064::1715674386::1::::<><>::
+Back Palm Tree Regular 01.png::CompressedTexture2D::5911008963402382893::1715674064::1715674386::1::::<><>::
+Back Palm Tree Regular 02.png::CompressedTexture2D::8784627227023671980::1715674064::1715674386::1::::<><>::
+Back Palm Tree Regular 03.png::CompressedTexture2D::3618734732233496634::1715674064::1715674386::1::::<><>::
+Back Palm Tree Regular 04.png::CompressedTexture2D::3337226974819584660::1715674064::1715674386::1::::<><>::
+Back Palm Tree Right 01.png::CompressedTexture2D::3285919510947090083::1715674064::1715674386::1::::<><>::
+Back Palm Tree Right 02.png::CompressedTexture2D::627324014474873840::1715674064::1715674386::1::::<><>::
+Back Palm Tree Right 03.png::CompressedTexture2D::6704195702394851321::1715674064::1715674386::1::::<><>::
+Back Palm Tree Right 04.png::CompressedTexture2D::1012623218163117284::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Decoration/Background/::1715674386
+Additional Sky.png::CompressedTexture2D::597246719412196048::1715674064::1715674386::1::::<><>::
+Additional Water.png::CompressedTexture2D::1899138362010604822::1715674064::1715674386::1::::<><>::
+BG Image.png::CompressedTexture2D::343312037668603391::1715674064::1715674386::1::::<><>::
+Big Clouds.png::CompressedTexture2D::3131762063740055454::1715674064::1715674386::1::::<><>::
+Small Cloud 1.png::CompressedTexture2D::5593491169941125491::1715674064::1715674386::1::::<><>::
+Small Cloud 2.png::CompressedTexture2D::9099981911265797931::1715674064::1715674386::1::::<><>::
+Small Cloud 3.png::CompressedTexture2D::7904831382638435123::1715674064::1715674386::1::::<><>::
+Water Reflect Big 01.png::CompressedTexture2D::8364179703423861485::1715674064::1715674386::1::::<><>::
+Water Reflect Big 02.png::CompressedTexture2D::4816935074302985071::1715674064::1715674386::1::::<><>::
+Water Reflect Big 03.png::CompressedTexture2D::1111437709976699370::1715674064::1715674386::1::::<><>::
+Water Reflect Big 04.png::CompressedTexture2D::422353486627641488::1715674064::1715674386::1::::<><>::
+Water Reflect Medium 01.png::CompressedTexture2D::72464536117909918::1715674064::1715674386::1::::<><>::
+Water Reflect Medium 02.png::CompressedTexture2D::6676411681846271158::1715674064::1715674386::1::::<><>::
+Water Reflect Medium 03.png::CompressedTexture2D::5501169125286156956::1715674064::1715674386::1::::<><>::
+Water Reflect Medium 04.png::CompressedTexture2D::4006397405815584205::1715674064::1715674386::1::::<><>::
+Water Reflect Small 01.png::CompressedTexture2D::4579814964979814154::1715674064::1715674386::1::::<><>::
+Water Reflect Small 02.png::CompressedTexture2D::4188345211366301178::1715674064::1715674386::1::::<><>::
+Water Reflect Small 03.png::CompressedTexture2D::5036182420046612303::1715674064::1715674386::1::::<><>::
+Water Reflect Small 04.png::CompressedTexture2D::8665409912795775544::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Decoration/Objects/::1715674125
+::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/::1715674386
+Ship Helm Idle 01.png::CompressedTexture2D::3312182175451103488::1715674064::1715674386::1::::<><>::
+Ship Helm Idle 02.png::CompressedTexture2D::5157003724677666680::1715674064::1715674386::1::::<><>::
+Ship Helm Idle 03.png::CompressedTexture2D::2132416762946065511::1715674064::1715674386::1::::<><>::
+Ship Helm Idle 04.png::CompressedTexture2D::2296783783304752845::1715674064::1715674386::1::::<><>::
+Ship Helm Idle 05.png::CompressedTexture2D::2984174960120914593::1715674064::1715674386::1::::<><>::
+Ship Helm Idle 06.png::CompressedTexture2D::3276658040188973745::1715674064::1715674386::1::::<><>::
+Ship Helm Turn 01.png::CompressedTexture2D::4275303074519922810::1715674064::1715674386::1::::<><>::
+Ship Helm Turn 02.png::CompressedTexture2D::9204482930647573603::1715674064::1715674386::1::::<><>::
+Ship Helm Turn 03.png::CompressedTexture2D::6195783664254782868::1715674064::1715674386::1::::<><>::
+Ship Helm Turn 04.png::CompressedTexture2D::1109872334710686807::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/::1715674105
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/::1715674105
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/01-Idle/::1715674386
+Idle 01.png::CompressedTexture2D::2965751717567255201::1715674064::1715674386::1::::<><>::
+Idle 02.png::CompressedTexture2D::3353122625460591522::1715674064::1715674386::1::::<><>::
+Idle 03.png::CompressedTexture2D::42762895189731145::1715674064::1715674386::1::::<><>::
+Idle 04.png::CompressedTexture2D::7860044409995501232::1715674064::1715674386::1::::<><>::
+Idle 05.png::CompressedTexture2D::1333927439420426378::1715674064::1715674386::1::::<><>::
+Idle 06.png::CompressedTexture2D::5027957708322007858::1715674064::1715674386::1::::<><>::
+Idle 07.png::CompressedTexture2D::4315643781344714708::1715674064::1715674386::1::::<><>::
+Idle 08.png::CompressedTexture2D::7305005633454032244::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/02-Run/::1715674386
+Run 01.png::CompressedTexture2D::2834440292371362642::1715674064::1715674386::1::::<><>::
+Run 02.png::CompressedTexture2D::8902103058719563235::1715674064::1715674386::1::::<><>::
+Run 03.png::CompressedTexture2D::6961242366318304009::1715674064::1715674386::1::::<><>::
+Run 04.png::CompressedTexture2D::6547800474568412074::1715674064::1715674386::1::::<><>::
+Run 05.png::CompressedTexture2D::5785993681373529850::1715674064::1715674386::1::::<><>::
+Run 06.png::CompressedTexture2D::8031077088781221483::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/03-Jump/::1715674386
+Jump 01.png::CompressedTexture2D::6525545195111678115::1715674064::1715674386::1::::<><>::
+Jump 02.png::CompressedTexture2D::4969496736315150415::1715674064::1715674386::1::::<><>::
+Jump 03.png::CompressedTexture2D::6175336381834921769::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/04-Fall/::1715674386
+Fall 01.png::CompressedTexture2D::3367259362620015492::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/05-Ground/::1715674386
+Ground 01.png::CompressedTexture2D::987159266106592086::1715674064::1715674386::1::::<><>::
+Ground 02.png::CompressedTexture2D::7535231008708507655::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/06-Anticipation/::1715674386
+Anticipation 01.png::CompressedTexture2D::7359345332885726541::1715674064::1715674386::1::::<><>::
+Anticipation 02.png::CompressedTexture2D::7337260986795713454::1715674064::1715674386::1::::<><>::
+Anticipation 03.png::CompressedTexture2D::896566830226168672::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/07-Attack/::1715674386
+Attack 01.png::CompressedTexture2D::7988213458500881531::1715674064::1715674386::1::::<><>::
+Attack 02.png::CompressedTexture2D::941011113258769513::1715674064::1715674386::1::::<><>::
+Attack 03.png::CompressedTexture2D::1021818487369577980::1715674064::1715674386::1::::<><>::
+Attack 04.png::CompressedTexture2D::2427400565965765820::1715674064::1715674386::1::::<><>::
+Attack 05.png::CompressedTexture2D::134272029806585692::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/08-Hit/::1715674386
+Hit 01.png::CompressedTexture2D::1826315193933988601::1715674064::1715674386::1::::<><>::
+Hit 02.png::CompressedTexture2D::5338637427195235413::1715674064::1715674386::1::::<><>::
+Hit 03.png::CompressedTexture2D::1973668059417788643::1715674064::1715674386::1::::<><>::
+Hit 04.png::CompressedTexture2D::2364422265191182658::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/09-Dead Hit/::1715674386
+Dead Hit 01.png::CompressedTexture2D::2494745973115439198::1715674064::1715674386::1::::<><>::
+Dead Hit 02.png::CompressedTexture2D::1230177966287677542::1715674064::1715674386::1::::<><>::
+Dead Hit 03.png::CompressedTexture2D::2962066117437599998::1715674064::1715674386::1::::<><>::
+Dead Hit 04.png::CompressedTexture2D::9174464472058950554::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/10-Dead Ground/::1715674386
+Dead Ground 01.png::CompressedTexture2D::4923481095785285300::1715674064::1715674386::1::::<><>::
+Dead Ground 02.png::CompressedTexture2D::8809513259513903055::1715674064::1715674386::1::::<><>::
+Dead Ground 03.png::CompressedTexture2D::8465262905406232098::1715674064::1715674386::1::::<><>::
+Dead Ground 04.png::CompressedTexture2D::298235141893931877::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Enemies/Fierce Tooth/11-Attack Effect/::1715674386
+Attack Effect 01.png::CompressedTexture2D::9204558109132807286::1715674064::1715674386::1::::<><>::
+Attack Effect 02.png::CompressedTexture2D::5671623316277584892::1715674064::1715674386::1::::<><>::
+Attack Effect 03.png::CompressedTexture2D::1675667599067677911::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/::1715681625
+::res://PirateSprite/Sprites/Interactable/Chest/::1715674098
+::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/::1715674098
+::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Effect/::1715674386
+1.png::CompressedTexture2D::6164533608651910986::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::4757862431425669726::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::7596615059079604879::1715674064::1715674386::1::::<><>::
+4.png::CompressedTexture2D::5780506231649623069::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/::1715674386
+1.png::CompressedTexture2D::8133731717100589888::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::826054176235450166::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::1346539138514121842::1715674064::1715674386::1::::<><>::
+4.png::CompressedTexture2D::274314241089108836::1715674064::1715674386::1::::<><>::
+5.png::CompressedTexture2D::4348313755989950513::1715674064::1715674386::1::::<><>::
+6.png::CompressedTexture2D::6408589952537480386::1715674064::1715674386::1::::<><>::
+7.png::CompressedTexture2D::8170055613187406405::1715674064::1715674386::1::::<><>::
+8.png::CompressedTexture2D::1826704494108809610::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Chest/Idle/::1715674386
+1.png::CompressedTexture2D::3599124855668824200::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Chest/Padlock/::1715674386
+1.png::CompressedTexture2D::6253363950376081088::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/::1715674386
+1.png::CompressedTexture2D::6863890087486740177::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::7547652560119598364::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::7665706117554837361::1715674064::1715674386::1::::<><>::
+4.png::CompressedTexture2D::6979603219241958215::1715674064::1715674386::1::::<><>::
+5.png::CompressedTexture2D::3843091879616804053::1715674064::1715674386::1::::<><>::
+6.png::CompressedTexture2D::7379722279857369050::1715674064::1715674386::1::::<><>::
+7.png::CompressedTexture2D::4553675949276943426::1715674064::1715674386::1::::<><>::
+8.png::CompressedTexture2D::708448099687272528::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Coin/::1715674098
+::res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/::1715674386
+01.png::CompressedTexture2D::1956157359380804599::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::5574302021739424562::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::4746702780147199569::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/::1715674386
+01.png::CompressedTexture2D::7389348030050016132::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::3575070814485818491::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::1100408374631871843::1715674064::1715674386::1::::<><>::
+04.png::CompressedTexture2D::5732539653758687891::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Coin/Silver Coin/::1715674386
+01.png::CompressedTexture2D::2650073551395908315::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::8959619311689050150::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::1873037991122425389::1715674064::1715674386::1::::<><>::
+04.png::CompressedTexture2D::1390192829546525079::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Flag/::1715679237
+Flag 01.png::CompressedTexture2D::4169151768189843385::1715677817::1715678275::1::::<><>::
+Flag 02.png::CompressedTexture2D::2638893239443562293::1715677963::1715678275::1::::<><>::
+Flag 03.png::CompressedTexture2D::2229142260886957833::1715678058::1715678275::1::::<><>::
+Flag 04.png::CompressedTexture2D::7296890077293161380::1715678155::1715678275::1::::<><>::
+Flag 05.png::CompressedTexture2D::5461412094049629894::1715678252::1715678275::1::::<><>::
+Flag 06.png::CompressedTexture2D::7322846858411815318::1715678399::1715678715::1::::<><>::
+Flag 07.png::CompressedTexture2D::6792545062817270169::1715678508::1715678715::1::::<><>::
+Flag 08.png::CompressedTexture2D::3649113401701820477::1715678931::1715679237::1::::<><>::
+Flag 09.png::CompressedTexture2D::7511750063991832584::1715678646::1715678715::1::::<><>::
+Platform.png::CompressedTexture2D::3617953587740320436::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Heart/::1715674091
+::res://PirateSprite/Sprites/Interactable/Heart/Get/::1715674386
+tile000.png::CompressedTexture2D::3674069781956071739::1715674064::1715674386::1::::<><>::
+tile001.png::CompressedTexture2D::8426432357481398492::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Heart/Idle/::1715674386
+tile000.png::CompressedTexture2D::4871980752600798389::1715674064::1715674386::1::::<><>::
+tile001.png::CompressedTexture2D::889928526749778994::1715674064::1715674386::1::::<><>::
+tile002.png::CompressedTexture2D::3118218282892403816::1715674064::1715674386::1::::<><>::
+tile003.png::CompressedTexture2D::6248886643329926775::1715674064::1715674386::1::::<><>::
+tile004.png::CompressedTexture2D::1059095963144808910::1715674064::1715674386::1::::<><>::
+tile005.png::CompressedTexture2D::7107671546471443181::1715674064::1715674386::1::::<><>::
+tile006.png::CompressedTexture2D::5424040834946949775::1715674064::1715674386::1::::<><>::
+tile007.png::CompressedTexture2D::2937734240818758053::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Potion/::1715674105
+::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/::1715674386
+01.png::CompressedTexture2D::3629974216380034017::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::9071367522435212490::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::6758384140041298526::1715674064::1715674386::1::::<><>::
+04.png::CompressedTexture2D::7563460765751529968::1715674064::1715674386::1::::<><>::
+05.png::CompressedTexture2D::2405368872506180543::1715674064::1715674386::1::::<><>::
+06.png::CompressedTexture2D::4370917120998863654::1715674064::1715674386::1::::<><>::
+07.png::CompressedTexture2D::5277606024958699477::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/::1715674386
+01.png::CompressedTexture2D::6945188899939865622::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::720195820633775629::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::3015339465800368263::1715674064::1715674386::1::::<><>::
+04.png::CompressedTexture2D::862631647334612769::1715674064::1715674386::1::::<><>::
+05.png::CompressedTexture2D::8814833507121660459::1715674064::1715674386::1::::<><>::
+06.png::CompressedTexture2D::1629297420664304761::1715674064::1715674386::1::::<><>::
+07.png::CompressedTexture2D::5219077258168054966::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/::1715674386
+01.png::CompressedTexture2D::79888486050471259::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::7049855279638188904::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::2189782003136748068::1715674064::1715674386::1::::<><>::
+04.png::CompressedTexture2D::3132732823754063440::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/::1715674386
+01.png::CompressedTexture2D::262621081694843270::1715674064::1715674386::1::::<><>::
+02.png::CompressedTexture2D::5920510802986227813::1715674064::1715674386::1::::<><>::
+03.png::CompressedTexture2D::6106225745601567226::1715674064::1715674386::1::::<><>::
+04.png::CompressedTexture2D::7887423061772825335::1715674064::1715674386::1::::<><>::
+05.png::CompressedTexture2D::6355700825073428981::1715674064::1715674386::1::::<><>::
+06.png::CompressedTexture2D::3955849105756892291::1715674064::1715674386::1::::<><>::
+07.png::CompressedTexture2D::4189895164756673092::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/::1715681625
+::res://PirateSprite/Sprites/Interactable/Ship/Anchor/::1715681440
+1.png::CompressedTexture2D::6353273828586325352::1715681282::1715681440::1::::<><>::
+2.png::CompressedTexture2D::6451576676878344805::1715681282::1715681440::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Destroyed/::1715674386
+1.png::CompressedTexture2D::7807583776940912167::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::3730074172638697677::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::4098719532312551726::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Sail/::1715674119
+::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/::1715674386
+1.png::CompressedTexture2D::8536491937196940415::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::6919865226704745170::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::4599435487187257186::1715674064::1715674386::1::::<><>::
+4.png::CompressedTexture2D::5094030897822792094::1715674064::1715674386::1::::<><>::
+5.png::CompressedTexture2D::2604947985544046353::1715674064::1715674386::1::::<><>::
+6.png::CompressedTexture2D::6111763227368575504::1715674064::1715674386::1::::<><>::
+7.png::CompressedTexture2D::7328571427295057885::1715674064::1715674386::1::::<><>::
+8.png::CompressedTexture2D::470276551362916677::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Sail/Transition to No Wind/::1715674386
+1.png::CompressedTexture2D::4383294403094054978::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::336259653474970531::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::1879515903173070154::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Sail/Transition to Wind/::1715674386
+1.png::CompressedTexture2D::1546433784768068679::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::5774248511141760885::1715674064::1715674386::1::::<><>::
+3.png::CompressedTexture2D::3595033685098510350::1715674064::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/::1715674386
+1.png::CompressedTexture2D::1943540573343676191::1715674064::1715674386::1::::<><>::
+2.png::CompressedTexture2D::1745409995420091559::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::2945833729486631738::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::4725813592730669392::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Ship/::1715681625
+::res://PirateSprite/Sprites/Interactable/Ship/Ship/Hit/::1715681642
+1.png::CompressedTexture2D::8076660435489825103::1715681548::1715681642::1::::<><>::
+2.png::CompressedTexture2D::6260691915263652905::1715681548::1715681642::1::::<><>::
+3.png::CompressedTexture2D::1837566760358870291::1715681548::1715681642::1::::<><>::
+4.png::CompressedTexture2D::1914520915904158281::1715681548::1715681642::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/::1715681642
+1.png::CompressedTexture2D::429478103365622216::1715681548::1715681642::1::::<><>::
+2.png::CompressedTexture2D::4134413372506578187::1715681548::1715681642::1::::<><>::
+3.png::CompressedTexture2D::7420780150981749235::1715681548::1715681642::1::::<><>::
+4.png::CompressedTexture2D::5739011691443448365::1715681548::1715681642::1::::<><>::
+5.png::CompressedTexture2D::8631125637983615692::1715681548::1715681642::1::::<><>::
+6.png::CompressedTexture2D::8480314719131791292::1715681548::1715681642::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Water/::1715674162
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Reflexes 1/::1715674386
+1.png::CompressedTexture2D::4713162645730903849::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::5010983229599929230::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::7241279967510805007::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::4938621251903688285::1715674065::1715674386::1::::<><>::
+5.png::CompressedTexture2D::3630132082357052266::1715674065::1715674386::1::::<><>::
+6.png::CompressedTexture2D::4825376632911302261::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Reflexes 2/::1715674386
+1.png::CompressedTexture2D::2095496996426225069::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::181460055535019549::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::5271719491386412770::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::93605034271538312::1715674065::1715674386::1::::<><>::
+5.png::CompressedTexture2D::4420758420819048754::1715674065::1715674386::1::::<><>::
+6.png::CompressedTexture2D::8495761792241841103::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Water/::1715674162
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Water/Bottom/::1715674386
+1.png::CompressedTexture2D::4953091742155026694::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Water/Top/::1715674386
+1.png::CompressedTexture2D::7375797674081122314::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::2047260162612899969::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::2514873505854824873::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::3034388218554175910::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/::1715674386
+1.png::CompressedTexture2D::1956170646881380223::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::8934424275295657375::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::3106780648153707854::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::222013431566652462::1715674065::1715674386::1::::<><>::
+5.png::CompressedTexture2D::5731692083156093443::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/::1715674386
+1.png::CompressedTexture2D::4952701472171344523::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::4575761322328014980::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::7021539887760260964::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::8303143021138678891::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Interactable/Spikes/::1715674386
+Spikes.png::CompressedTexture2D::4853377371852694199::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/Player/::1715679248
+::res://PirateSprite/Sprites/Player/09-Idle Sword/::1715679248
+Idle Sword 01 2.png::CompressedTexture2D::3740386480757336276::1715674950::1715679237::1::::<><>::
+Idle Sword 01.png::CompressedTexture2D::487426027078877203::1715677984::1715679237::1::::<><>::
+Idle Sword 02 2.png::CompressedTexture2D::4883477088976659019::1715675246::1715679237::1::::<><>::
+Idle Sword 02.png::CompressedTexture2D::6614345259527375421::1715677966::1715679237::1::::<><>::
+Idle Sword 03 2.png::CompressedTexture2D::8409934849831625855::1715675272::1715679237::1::::<><>::
+Idle Sword 03.png::CompressedTexture2D::9124619478084037471::1715677946::1715679237::1::::<><>::
+Idle Sword 04 2.png::CompressedTexture2D::4817088515461727723::1715675290::1715679237::1::::<><>::
+Idle Sword 04.png::CompressedTexture2D::8250878049073450057::1715677928::1715679237::1::::<><>::
+Idle Sword 05 2.png::CompressedTexture2D::7159481978579795149::1715675312::1715679237::1::::<><>::
+Idle Sword 05.png::CompressedTexture2D::597716029240059659::1715677912::1715679237::1::::<><>::
+Idle Sword 06 2.png::CompressedTexture2D::6355705517065688460::1715675328::1715679237::1::::<><>::
+Idle Sword 06.png::CompressedTexture2D::664795708154076863::1715677880::1715679237::1::::<><>::
+::res://PirateSprite/Sprites/Player/10-Run Sword/::1715679248
+Run Sword 01 2.png::CompressedTexture2D::421902339365865258::1715674065::1715679237::1::::<><>::
+Run Sword 01.png::CompressedTexture2D::4423332121848513148::1715677644::1715679237::1::::<><>::
+Run Sword 02 2.png::CompressedTexture2D::991129380809062968::1715674065::1715679237::1::::<><>::
+Run Sword 02.png::CompressedTexture2D::5479060480968767008::1715677688::1715679237::1::::<><>::
+Run Sword 03 2.png::CompressedTexture2D::3587982141922696::1715674065::1715679237::1::::<><>::
+Run Sword 03.png::CompressedTexture2D::7167431962068819669::1715677728::1715679237::1::::<><>::
+Run Sword 04 2.png::CompressedTexture2D::5066470302851975142::1715674065::1715679237::1::::<><>::
+Run Sword 04.png::CompressedTexture2D::6690413910507266673::1715677760::1715679237::1::::<><>::
+Run Sword 05 2.png::CompressedTexture2D::2315018096659072774::1715674065::1715679237::1::::<><>::
+Run Sword 05.png::CompressedTexture2D::699934373000670158::1715677804::1715679237::1::::<><>::
+Run Sword 06 2.png::CompressedTexture2D::6835125680237336556::1715674065::1715679237::1::::<><>::
+Run Sword 06.png::CompressedTexture2D::70715047838037191::1715677836::1715679237::1::::<><>::
+::res://PirateSprite/Sprites/Player/11-Jump Sword/::1715679245
+Jump Sword 01 2.png::CompressedTexture2D::420245778828185208::1715674065::1715679237::1::::<><>::
+Jump Sword 01.png::CompressedTexture2D::5090820121403675282::1715677514::1715679237::1::::<><>::
+Jump Sword 02 2.png::CompressedTexture2D::2350127379508533299::1715674065::1715679237::1::::<><>::
+Jump Sword 02.png::CompressedTexture2D::342578413015680384::1715677566::1715679237::1::::<><>::
+Jump Sword 03 2.png::CompressedTexture2D::3964497816558853365::1715674065::1715679237::1::::<><>::
+Jump Sword 03.png::CompressedTexture2D::3475191681324410543::1715677606::1715679237::1::::<><>::
+::res://PirateSprite/Sprites/Player/12-Fall Sword/::1715679237
+Fall Sword 01.png::CompressedTexture2D::857319804014600017::1715677984::1715679237::1::::<><>::
+::res://PirateSprite/Sprites/Player/14-Hit Sword/::1715679248
+Hit Sword 01 2.png::CompressedTexture2D::182213513414880658::1715674065::1715679237::1::::<><>::
+Hit Sword 01.png::CompressedTexture2D::8050560850849833094::1715677414::1715679237::1::::<><>::
+Hit Sword 02 2.png::CompressedTexture2D::4467153239378819805::1715674065::1715679237::1::::<><>::
+Hit Sword 02.png::CompressedTexture2D::5847525475651176900::1715677458::1715679237::1::::<><>::
+Hit Sword 03.png::CompressedTexture2D::6197447671957330765::1715677414::1715679237::1::::<><>::
+Hit Sword 04.png::CompressedTexture2D::8706618827988983249::1715677458::1715679237::1::::<><>::
+::res://PirateSprite/Sprites/Player/Attack/::1715679248
+::res://PirateSprite/Sprites/Player/Attack/16-Attack 2/::1715679248
+Attack 2 01 2.png::CompressedTexture2D::6211325915777930529::1715674065::1715679237::1::::<><>::
+Attack 2 01.png::CompressedTexture2D::6421070696949688263::1715677254::1715679237::1::::<><>::
+Attack 2 02 2.png::CompressedTexture2D::8350780842409839018::1715674065::1715679237::1::::<><>::
+Attack 2 02.png::CompressedTexture2D::5112635413039367181::1715677312::1715679237::1::::<><>::
+Attack 2 03 2.png::CompressedTexture2D::514935834346372749::1715674065::1715679237::1::::<><>::
+Attack 2 03.png::CompressedTexture2D::965217395801976267::1715677376::1715679237::1::::<><>::
+::res://PirateSprite/Sprites/Terrain/::1715674386
+Platforms (32x32).png::CompressedTexture2D::4462681983550010867::1715674065::1715674386::1::::<><>::
+Platforms.png::CompressedTexture2D::8087043858581014646::1715674065::1715674386::1::::<><>::
+Terrain (32x32).png::CompressedTexture2D::823497472465625330::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/::1715674162
+::res://PirateSprite/Sprites/UI/Life Bars/::1715674152
+::res://PirateSprite/Sprites/UI/Life Bars/Big Bars/::1715674386
+1.png::CompressedTexture2D::4698943237697176521::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::5914223387534684104::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::8860944692482893924::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::8291624311864265462::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Life Bars/Colors/::1715674386
+1.png::CompressedTexture2D::716657948256315452::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::5487340469857470295::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::3404637816537671121::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::7225015002165778978::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Life Bars/Medium Bars/::1715674386
+1.png::CompressedTexture2D::5601460099406718267::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::3712831750206929514::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::5473209280154454426::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::1695491010626653447::1715674065::1715674386::1::::<><>::
+5.png::CompressedTexture2D::1900499077991051972::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Life Bars/Small Bars/::1715674386
+1.png::CompressedTexture2D::703873818127001657::1715674065::1715674386::1::::<><>::
+2.png::CompressedTexture2D::5985458054605319666::1715674065::1715674386::1::::<><>::
+3.png::CompressedTexture2D::173960796674185580::1715674065::1715674386::1::::<><>::
+4.png::CompressedTexture2D::5610086974231374065::1715674065::1715674386::1::::<><>::
+5.png::CompressedTexture2D::3862493377288916323::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Mobile Buttons/::1715674162
+::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/::1715674162
+::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/42 px/::1715674386
+About.png::CompressedTexture2D::8837079986855514332::1715674065::1715674386::1::::<><>::
+Announcement.png::CompressedTexture2D::1378632197044567510::1715674065::1715674386::1::::<><>::
+Back.png::CompressedTexture2D::5441898711040831599::1715674065::1715674386::1::::<><>::
+Close.png::CompressedTexture2D::3962311155996036370::1715674065::1715674386::1::::<><>::
+Email.png::CompressedTexture2D::6635077053298509704::1715674065::1715674386::1::::<><>::
+False.png::CompressedTexture2D::6897738568591202018::1715674065::1715674386::1::::<><>::
+Game.png::CompressedTexture2D::5624868915668296879::1715674065::1715674386::1::::<><>::
+Home.png::CompressedTexture2D::8516816338567503183::1715674065::1715674386::1::::<><>::
+Information.png::CompressedTexture2D::1770964378690721232::1715674065::1715674386::1::::<><>::
+Leaderboard.png::CompressedTexture2D::5473770724981530053::1715674065::1715674386::1::::<><>::
+List.png::CompressedTexture2D::1455346110565380377::1715674065::1715674386::1::::<><>::
+Music.png::CompressedTexture2D::6332864127889770813::1715674065::1715674386::1::::<><>::
+Next.png::CompressedTexture2D::6281118344374294917::1715674065::1715674386::1::::<><>::
+Option.png::CompressedTexture2D::3211354263826884471::1715674065::1715674386::1::::<><>::
+Pause.png::CompressedTexture2D::7127880938263437787::1715674065::1715674386::1::::<><>::
+Play.png::CompressedTexture2D::7879240027669373863::1715674065::1715674386::1::::<><>::
+Replay.png::CompressedTexture2D::3986908017857883938::1715674065::1715674386::1::::<><>::
+Screenshoot.png::CompressedTexture2D::6394795848490772375::1715674065::1715674386::1::::<><>::
+Signal.png::CompressedTexture2D::6723660269510680085::1715674065::1715674386::1::::<><>::
+Silent.png::CompressedTexture2D::5916177550272634203::1715674065::1715674386::1::::<><>::
+Sound.png::CompressedTexture2D::9202082010885803182::1715674065::1715674386::1::::<><>::
+Star.png::CompressedTexture2D::1808015164727776407::1715674065::1715674386::1::::<><>::
+Store.png::CompressedTexture2D::7379407019645220876::1715674065::1715674386::1::::<><>::
+Video.png::CompressedTexture2D::5021827489359814928::1715674065::1715674386::1::::<><>::
+Yes.png::CompressedTexture2D::1252361855786239096::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/60 px/::1715674386
+About.png::CompressedTexture2D::9209978823263049690::1715674065::1715674386::1::::<><>::
+Announcement.png::CompressedTexture2D::4817545319271900900::1715674065::1715674386::1::::<><>::
+Back.png::CompressedTexture2D::5927393943654347233::1715674065::1715674386::1::::<><>::
+Close.png::CompressedTexture2D::1109972372869289199::1715674065::1715674386::1::::<><>::
+Email.png::CompressedTexture2D::2180843207336562614::1715674065::1715674386::1::::<><>::
+False.png::CompressedTexture2D::1199411565770859817::1715674065::1715674386::1::::<><>::
+Game.png::CompressedTexture2D::5399139559724024308::1715674065::1715674386::1::::<><>::
+Home.png::CompressedTexture2D::3736696231663253557::1715674065::1715674386::1::::<><>::
+Information.png::CompressedTexture2D::4277800369424984408::1715674065::1715674386::1::::<><>::
+Leaderboard.png::CompressedTexture2D::6765275192267821570::1715674065::1715674386::1::::<><>::
+List.png::CompressedTexture2D::6472731465751647124::1715674065::1715674386::1::::<><>::
+Music.png::CompressedTexture2D::4078099114567782952::1715674065::1715674386::1::::<><>::
+Next.png::CompressedTexture2D::8738808187088658251::1715674065::1715674386::1::::<><>::
+Option.png::CompressedTexture2D::942202102030187783::1715674065::1715674386::1::::<><>::
+Pause.png::CompressedTexture2D::5615465446744500694::1715674065::1715674386::1::::<><>::
+Play.png::CompressedTexture2D::3056571874427700905::1715674065::1715674386::1::::<><>::
+Replay.png::CompressedTexture2D::2513673014379158745::1715674065::1715674386::1::::<><>::
+Screenshoot.png::CompressedTexture2D::6145315255205689060::1715674065::1715674386::1::::<><>::
+Signal.png::CompressedTexture2D::796312164468608010::1715674065::1715674386::1::::<><>::
+Silent.png::CompressedTexture2D::2456853777479099214::1715674065::1715674386::1::::<><>::
+Sound.png::CompressedTexture2D::4749729737535871144::1715674065::1715674386::1::::<><>::
+Star.png::CompressedTexture2D::5102643486713682542::1715674065::1715674386::1::::<><>::
+Store.png::CompressedTexture2D::55055430687520714::1715674065::1715674386::1::::<><>::
+Video.png::CompressedTexture2D::4769676719077476562::1715674065::1715674386::1::::<><>::
+Yes.png::CompressedTexture2D::5736727200693137010::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/72 px/::1715674386
+About.png::CompressedTexture2D::6679159032993809158::1715674065::1715674386::1::::<><>::
+Announcement.png::CompressedTexture2D::1308615740884875019::1715674065::1715674386::1::::<><>::
+Back.png::CompressedTexture2D::1442294388925422892::1715674065::1715674386::1::::<><>::
+Close.png::CompressedTexture2D::6440966668542320106::1715674065::1715674386::1::::<><>::
+Email.png::CompressedTexture2D::5761226662823975465::1715674065::1715674386::1::::<><>::
+False.png::CompressedTexture2D::2638428897867157246::1715674065::1715674386::1::::<><>::
+Game.png::CompressedTexture2D::1469490558158223969::1715674065::1715674386::1::::<><>::
+Home.png::CompressedTexture2D::2129743086203161294::1715674065::1715674386::1::::<><>::
+Information.png::CompressedTexture2D::679755567872735631::1715674065::1715674386::1::::<><>::
+Leaderboard.png::CompressedTexture2D::8639160452285015543::1715674065::1715674386::1::::<><>::
+List.png::CompressedTexture2D::7655020157535345093::1715674065::1715674386::1::::<><>::
+Music.png::CompressedTexture2D::2443860398794355614::1715674065::1715674386::1::::<><>::
+Next.png::CompressedTexture2D::4749981583397865471::1715674065::1715674386::1::::<><>::
+Option.png::CompressedTexture2D::2955319438905965386::1715674065::1715674386::1::::<><>::
+Pause.png::CompressedTexture2D::5445417058127741392::1715674065::1715674386::1::::<><>::
+Play.png::CompressedTexture2D::7007132952202271311::1715674065::1715674386::1::::<><>::
+Replay.png::CompressedTexture2D::5912308497404487503::1715674065::1715674386::1::::<><>::
+Screenshoot.png::CompressedTexture2D::3911549631140419307::1715674065::1715674386::1::::<><>::
+Signal.png::CompressedTexture2D::3806657734060950875::1715674065::1715674386::1::::<><>::
+Silent.png::CompressedTexture2D::4511909010640636742::1715674065::1715674386::1::::<><>::
+Sound.png::CompressedTexture2D::8989580904485032546::1715674065::1715674386::1::::<><>::
+Star.png::CompressedTexture2D::7051983417005316806::1715674065::1715674386::1::::<><>::
+Store.png::CompressedTexture2D::2940508709246340121::1715674065::1715674386::1::::<><>::
+Video.png::CompressedTexture2D::8795174745223315298::1715674065::1715674386::1::::<><>::
+Yes.png::CompressedTexture2D::5086887665377844749::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/::1715674386
+About.png::CompressedTexture2D::3226180486862220178::1715674065::1715674386::1::::<><>::
+Announcment.png::CompressedTexture2D::2193960850158768756::1715674065::1715674386::1::::<><>::
+Attack.png::CompressedTexture2D::9182379031562263785::1715674065::1715674386::1::::<><>::
+Back.png::CompressedTexture2D::7181953515766319802::1715674065::1715674386::1::::<><>::
+Bottom.png::CompressedTexture2D::811611978246919892::1715674065::1715674386::1::::<><>::
+Game.png::CompressedTexture2D::482224967858665567::1715674065::1715674386::1::::<><>::
+Home.png::CompressedTexture2D::724771944321598545::1715674065::1715674386::1::::<><>::
+Information.png::CompressedTexture2D::4225415363000738980::1715674065::1715674386::1::::<><>::
+Jump.png::CompressedTexture2D::684233494172276282::1715674065::1715674386::1::::<><>::
+Leaderboard.png::CompressedTexture2D::7071045519402024743::1715674065::1715674386::1::::<><>::
+List.png::CompressedTexture2D::5975655239096617246::1715674065::1715674386::1::::<><>::
+Mail.png::CompressedTexture2D::7013086727639214333::1715674065::1715674386::1::::<><>::
+Music.png::CompressedTexture2D::2307644383957960466::1715674065::1715674386::1::::<><>::
+Next.png::CompressedTexture2D::369717350678023773::1715674065::1715674386::1::::<><>::
+No.png::CompressedTexture2D::848242957737796786::1715674065::1715674386::1::::<><>::
+Pause.png::CompressedTexture2D::5162375010066724236::1715674065::1715674386::1::::<><>::
+Play.png::CompressedTexture2D::734496006216100314::1715674065::1715674386::1::::<><>::
+Replay.png::CompressedTexture2D::390875964411693936::1715674065::1715674386::1::::<><>::
+Restart.png::CompressedTexture2D::5299719641503656789::1715674065::1715674386::1::::<><>::
+Screenshoot.png::CompressedTexture2D::6771945830797849790::1715674065::1715674386::1::::<><>::
+Setting.png::CompressedTexture2D::722918097209077618::1715674065::1715674386::1::::<><>::
+Signal.png::CompressedTexture2D::3672415528206197954::1715674065::1715674386::1::::<><>::
+Silent.png::CompressedTexture2D::5309062047397804767::1715674065::1715674386::1::::<><>::
+Sound.png::CompressedTexture2D::4846037285825130931::1715674065::1715674386::1::::<><>::
+Star.png::CompressedTexture2D::870304150451428906::1715674065::1715674386::1::::<><>::
+Store.png::CompressedTexture2D::1665813514888557335::1715674065::1715674386::1::::<><>::
+Video.png::CompressedTexture2D::8498188202271455826::1715674065::1715674386::1::::<><>::
+Yes.png::CompressedTexture2D::3454389002824779296::1715674065::1715674386::1::::<><>::
+::res://PirateSprite/Sprites/UI/Pack/::1715674386
+blue_button00.png::CompressedTexture2D::9190177118369023362::1715674065::1715674386::1::::<><>::
+blue_button01.png::CompressedTexture2D::8873954717378291363::1715674065::1715674386::1::::<><>::
+blue_button02.png::CompressedTexture2D::2407423373533237535::1715674065::1715674386::1::::<><>::
+blue_button03.png::CompressedTexture2D::173441715675056223::1715674065::1715674386::1::::<><>::
+blue_button04.png::CompressedTexture2D::5794985894389926731::1715674065::1715674386::1::::<><>::
+blue_button05.png::CompressedTexture2D::1458133798422172808::1715674065::1715674386::1::::<><>::
+blue_button06.png::CompressedTexture2D::1381662212848657359::1715674065::1715674386::1::::<><>::
+blue_circle.png::CompressedTexture2D::235509627238758743::1715674065::1715674386::1::::<><>::
+blue_panel.png::CompressedTexture2D::9068984494969511285::1715674065::1715674386::1::::<><>::
+grey_arrowDownGrey.png::CompressedTexture2D::3285341148550304816::1715674065::1715674386::1::::<><>::
+grey_arrowDownWhite.png::CompressedTexture2D::8901369892759551341::1715674065::1715674386::1::::<><>::
+grey_arrowUpGrey.png::CompressedTexture2D::6447449062481815337::1715674065::1715674386::1::::<><>::
+grey_arrowUpWhite.png::CompressedTexture2D::4752459126190607756::1715674065::1715674386::1::::<><>::
+grey_button00.png::CompressedTexture2D::5451867725056224477::1715674065::1715674386::1::::<><>::
+grey_button01.png::CompressedTexture2D::5505747700090322664::1715674065::1715674386::1::::<><>::
+grey_button02.png::CompressedTexture2D::2287373089733407746::1715674065::1715674386::1::::<><>::
+grey_button03.png::CompressedTexture2D::2354559879844731333::1715674065::1715674386::1::::<><>::
+grey_button04.png::CompressedTexture2D::5567232186098163656::1715674065::1715674386::1::::<><>::
+grey_button05.png::CompressedTexture2D::5223434281556743803::1715674065::1715674386::1::::<><>::
+grey_button06.png::CompressedTexture2D::7153317941867504638::1715674065::1715674386::1::::<><>::
+grey_button07.png::CompressedTexture2D::4345795393079857929::1715674065::1715674386::1::::<><>::
+grey_button08.png::CompressedTexture2D::8410267686321555820::1715674065::1715674386::1::::<><>::
+grey_button09.png::CompressedTexture2D::1315933664524735733::1715674065::1715674386::1::::<><>::
+grey_panel.png::CompressedTexture2D::8097520855490861508::1715674065::1715674386::1::::<><>::
+grey_sliderDown.png::CompressedTexture2D::7976775925280299566::1715674065::1715674386::1::::<><>::
+grey_sliderHorizontal.png::CompressedTexture2D::4865062948977091613::1715674065::1715674386::1::::<><>::
+grey_sliderLeft.png::CompressedTexture2D::9079743230724137217::1715674065::1715674386::1::::<><>::
+grey_sliderRight.png::CompressedTexture2D::7761037559219426652::1715674065::1715674386::1::::<><>::
+grey_sliderUp.png::CompressedTexture2D::2441324645477716454::1715674065::1715674386::1::::<><>::
+grey_sliderVertical.png::CompressedTexture2D::4205992514904231679::1715674065::1715674386::1::::<><>::
+grey_tickGrey.png::CompressedTexture2D::7807500648766210419::1715674065::1715674386::1::::<><>::
+grey_tickWhite.png::CompressedTexture2D::1116558337913690467::1715674065::1715674386::1::::<><>::
+::res://Scenes/::1715683008
+::res://Scenes/Collectables/::1715674113
+AttackPotion.tscn::PackedScene::7030896081133552895::1715674065::0::1::::<><>::res://Scripts/Collectables/AttackPotion.gd<>uid://bex0s7s7h0lj::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/01.png<>uid://c7pac67gertie::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/02.png<>uid://6g0niphmm7gy::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/03.png<>uid://bkvrwfuv1sjcy::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/04.png<>uid://d3e0okgprg3k7::::res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 3 - Sound effects Pack 2.wav<>uid://d0hliptss1rm::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/01.png<>uid://cql67h2l7ko66::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/02.png<>uid://cs85v7worcqkg::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/03.png<>uid://dkmyx8rohpdd4::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/04.png<>uid://cws0p1nor82k4::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/05.png<>uid://bwmiiy44fyf5d::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/06.png<>uid://b0xu7xfqp02r5::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/07.png
+Coins.tscn::PackedScene::2990578265637728198::1715674065::0::1::::<><>::uid://ddjpqnyrsuca3::::res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/01.png<>res://Scripts/Collectables/Coins.gd<>uid://bq615npnjytlj::::res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/02.png<>uid://pxbthk8wub3h::::res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/03.png<>uid://cnw5dcxqo4uyl::::res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/04.png<>uid://dys2spe8dnngg::::res://PirateSprite/Sounds/SoundEffect/Coins/WAV/Coins 8 - Sound effects Pack 2.wav<>uid://24tvjs2gf0mt::::res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/01.png<>uid://cloh67reugyt3::::res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/02.png<>uid://b8vlrbqt7r5wf::::res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/03.png
+HealthUp.tscn::PackedScene::7974612541864557139::1715674065::0::1::::<><>::res://Scripts/Collectables/HealthUp.gd<>uid://bsl0nl0vjrdm6::::res://PirateSprite/Sprites/Interactable/Heart/Get/tile000.png<>uid://dsb3dy681u63i::::res://PirateSprite/Sprites/Interactable/Heart/Get/tile001.png<>uid://cboa2t0apmm8t::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile000.png<>uid://mxc80xu66k4i::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile001.png<>uid://bkoquncnl7b17::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile002.png<>uid://cvbairbv72sdr::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile003.png<>uid://pdbfkcwuldv7::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile004.png<>uid://c8jakut7yhpq0::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile005.png<>uid://cjjpfpcfc5f7l::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile006.png<>uid://bh4cb3ed7ejs4::::res://PirateSprite/Sprites/Interactable/Heart/Idle/tile007.png<>uid://b68uflsl778se::::res://PirateSprite/Sounds/SoundEffect/Random/Power Up 1.wav
+JumpPotion.tscn::PackedScene::5206395443620959935::1715674065::0::1::::<><>::res://Scripts/Collectables/JumpPotion.gd<>uid://bkvrwfuv1sjcy::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/04.png<>uid://c57kim6smv7ug::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/01.png<>uid://ki4rxb41dnfx::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/02.png<>uid://bi7wg2yxnqydr::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/03.png<>uid://mj4ogju08530::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/04.png<>uid://dxt8axebncwrr::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/05.png<>uid://d3e0okgprg3k7::::res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 3 - Sound effects Pack 2.wav<>uid://xhij413hgmx2::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/06.png<>uid://cgmfo7s3aomig::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/07.png<>uid://bex0s7s7h0lj::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/01.png<>uid://c7pac67gertie::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/02.png<>uid://6g0niphmm7gy::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/03.png
+SpeedPotion.tscn::PackedScene::3873984561765999252::1715674065::0::1::::<><>::res://Scripts/Collectables/SpeedPotion.gd<>uid://bex0s7s7h0lj::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/01.png<>uid://c7pac67gertie::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/02.png<>uid://6g0niphmm7gy::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/03.png<>uid://bkvrwfuv1sjcy::::res://PirateSprite/Sprites/Interactable/Potion/Potion Effect/04.png<>uid://bryne6u86p6r2::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/01.png<>uid://d3e0okgprg3k7::::res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 3 - Sound effects Pack 2.wav<>uid://d2iidlaal4qwg::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/02.png<>uid://c3j2um42k51nm::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/03.png<>uid://df02dgn15e481::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/04.png<>uid://bajgcrovc3bmd::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/05.png<>uid://b3jkmpsl7m8r7::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/06.png<>uid://chgrnuuapy8xt::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/07.png
+::res://Scenes/Enemies/::1715674076
+FierceTooth.tscn::PackedScene::9017241635460092763::1715674065::0::1::::<><>::res://Scripts/Enemies/FierceTooth.gd<>uid://bbsqdps3mhox7::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/09-Dead Hit/Dead Hit 01.png<>uid://rr537gncktpm::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/09-Dead Hit/Dead Hit 02.png<>uid://big32cnqudqmo::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/09-Dead Hit/Dead Hit 03.png<>uid://d3ygdbnxvcyyk::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/09-Dead Hit/Dead Hit 04.png<>uid://1axe57eo5ucv::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/08-Hit/Hit 01.png<>uid://cicctwxb25ysr::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/08-Hit/Hit 02.png<>uid://3eca3of7cwcx::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/08-Hit/Hit 03.png<>uid://8xlxo1ywvdfe::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/08-Hit/Hit 04.png<>uid://bgna22a7us6pi::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/02-Run/Run 01.png<>uid://dy3ilpkfj6ebj::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/02-Run/Run 02.png<>uid://c6gcv6kgt8ell::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/02-Run/Run 03.png<>uid://c0j2k1wcnb5xm::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/02-Run/Run 04.png<>uid://coo1p888v0sby::::res://PirateSprite/Sprites/Enemies/Fierce Tooth/02-Run/Run 05.png
+::res://Scenes/Interactables/::1715674105
+CheckPoint.tscn::PackedScene::7236186152709990035::1715674065::0::1::::<><>::uid://b0ntk5q8ss8g0::::res://PirateSprite/Sprites/Interactable/Flag/Flag 01.png<>res://Scripts/Interactables/CheckPoint.gd<>uid://bdukgley3drer::::res://PirateSprite/Sprites/Interactable/Flag/Flag 02.png<>uid://602walv4c3cv::::res://PirateSprite/Sprites/Interactable/Flag/Flag 03.png<>uid://db7wyi11nxrii::::res://PirateSprite/Sprites/Interactable/Flag/Flag 04.png<>uid://cj2swod23im1c::::res://PirateSprite/Sprites/Interactable/Flag/Flag 05.png<>uid://dclihn4orqbhu::::res://PirateSprite/Sprites/Interactable/Flag/Flag 06.png<>uid://c31mhv32n2ho0::::res://PirateSprite/Sprites/Interactable/Flag/Flag 07.png<>uid://br8wmnputtkan::::res://PirateSprite/Sprites/Interactable/Flag/Flag 08.png<>uid://dfa0oqsnnk0v1::::res://PirateSprite/Sprites/Interactable/Flag/Flag 09.png<>uid://c41v3d3ahol84::::res://PirateSprite/Sounds/SoundEffect/Random/Misc 2.wav
+Chest.tscn::PackedScene::8787255429836209905::1715674065::0::1::::<><>::res://Scripts/Interactables/Chest.gd<>uid://kdgbioktlwi7::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/8.png<>uid://brjpcb8h7p2pg::::res://PirateSprite/Sprites/Interactable/Chest/Idle/1.png<>uid://c416jcs12ohcr::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/1.png<>uid://dfsey8ub5cxfg::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/2.png<>uid://dhhlcbdxo4su0::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/3.png<>uid://c6o8bsmafcbc6::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/4.png<>uid://bu0vfraney822::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/5.png<>uid://dde17huxtw56e::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/6.png<>uid://b543m3qtmvhkk::::res://PirateSprite/Sprites/Interactable/Chest/Unlocked/7.png
+ChestKey.tscn::PackedScene::1665271682632964511::1715674065::0::1::::<><>::res://Scripts/Interactables/ChestKey.gd<>uid://dn5bmxhqf3mey::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/1.png<>uid://l1e8yjvr3gck::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/2.png<>uid://tgjkkem1na0y::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/3.png<>uid://d546ej0or6qa::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/4.png<>uid://b27mdewmpt5uj::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/5.png<>uid://cxkmsmqqgj82a::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/6.png<>uid://donvvfmpmuoy4::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/7.png<>uid://1a4s55ixpfxa::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Idle/8.png<>uid://ct3e7540nh2ss::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Effect/1.png<>uid://b810kf1lyfj6u::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Effect/2.png<>uid://dgh4e1ahcapgh::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Effect/3.png<>uid://comedfu6gc6cn::::res://PirateSprite/Sprites/Interactable/Chest/Chest Key/Effect/4.png<>uid://rrdkicouf7xf::::res://PirateSprite/Sounds/SoundEffect/Coins/WAV/Coins 5 - Sound effects Pack 2.wav
+MovingPlatform.tscn::PackedScene::6194545828878098684::1715674065::0::1::::<><>::uid://dnhoowa5372w5::::res://PirateSprite/Sprites/Terrain/Platforms.png
+Ship.tscn::PackedScene::4217058149129847097::1715674065::0::1::::<><>::res://Scripts/Interactables/Ship.gd<>uid://gebparh5a57q::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/1.png<>uid://2xp3gwluhc68::::res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/1.png<>uid://cwrtqypbbc345::::res://PirateSprite/Sprites/Interactable/Ship/Anchor/1.png<>uid://p2vo2dbfvln0::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 04.png<>uid://cx6gr4hv7wfq8::::res://PirateSprite/Sprites/Interactable/Ship/Anchor/2.png<>uid://24t3yshho67d::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/1.png<>uid://cctejfyihvkrj::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/1.png<>uid://by50gi614m18r::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/2.png<>uid://ddyxfuvd7ujap::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/3.png<>uid://cn1axi2aax4q8::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/4.png<>uid://du78m4ieggm5q::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/5.png<>uid://ds26srmptshaa::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/6.png<>uid://dtve1l563g76r::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/1.png<>uid://c5ubf0xlo8435::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/2.png<>uid://b6sabbikjaeac::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/3.png<>uid://cett7eaek8cha::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/4.png<>uid://bdd4d3k53keuj::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/5.png<>uid://ctct32u2e236k::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/6.png<>uid://dcoara2d5japx::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/7.png<>uid://bngpfk6vbhguy::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 01.png<>uid://gx2nek8s08yj::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/8.png<>uid://d0j5wr3by3sct::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/2.png<>uid://cfqddlf1ktxv1::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 02.png<>uid://bki7huhjyid6e::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/3.png<>uid://5m7ue8a3j42v::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 03.png<>uid://7ytxtrkgfit6::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 04.png<>uid://dfsr8jhset87::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/4.png<>uid://cnwqepwv2cq0r::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 1/5.png<>uid://birs6p81kfj26::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 05.png<>uid://bmxicxsyyc4qn::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 06.png<>uid://b6gsedih4vtr5::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/2.png<>uid://c7bj0a6lxy6xk::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/3.png<>uid://dqkds1vv4t2fn::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water Splash 2/4.png<>uid://y4qwav647gmh::::res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/2.png<>uid://bh78plrlg5jqg::::res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/3.png<>uid://b8lhpvderrike::::res://PirateSprite/Sprites/Interactable/Ship/Sail/Wind/4.png<>uid://b158u8i4wt2o1::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 01.png<>uid://d4eyqvmv3qtqx::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 02.png<>uid://cujjwfn148ia3::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Turn 03.png
+::res://Scenes/Player/::1715674105
+Player.tscn::PackedScene::613935667613634053::1715674065::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://g7d3n1u1545t::::res://PirateSprite/Sprites/Player/09-Idle Sword/Idle Sword 01.png<>uid://cxqodji7ptx8b::::res://PirateSprite/Sprites/Player/Attack/16-Attack 2/Attack 2 01.png<>uid://c1ibkg4ojmmin::::res://PirateSprite/Sprites/Player/09-Idle Sword/Idle Sword 02.png<>uid://d3abfdbbm518f::::res://PirateSprite/Sprites/Player/09-Idle Sword/Idle Sword 03.png<>uid://dps10x623wfe4::::res://PirateSprite/Sprites/Player/09-Idle Sword/Idle Sword 04.png<>uid://irskb2gbxotf::::res://PirateSprite/Sprites/Player/09-Idle Sword/Idle Sword 05.png<>uid://b4axvswqknasq::::res://PirateSprite/Sprites/Player/10-Run Sword/Run Sword 01.png<>uid://ckcdlcog2fn33::::res://PirateSprite/Sprites/Player/10-Run Sword/Run Sword 02.png<>uid://dad7s7f1l7o02::::res://PirateSprite/Sprites/Player/10-Run Sword/Run Sword 03.png<>uid://c2k5e0n2brga8::::res://PirateSprite/Sprites/Player/10-Run Sword/Run Sword 04.png<>uid://j8b21j6uqi3w::::res://PirateSprite/Sprites/Player/10-Run Sword/Run Sword 05.png<>uid://baiwwqmmdk3p::::res://PirateSprite/Sprites/Player/10-Run Sword/Run Sword 06.png<>uid://cesbcfsts34b3::::res://PirateSprite/Sprites/Player/11-Jump Sword/Jump Sword 01.png<>uid://e47hmf24fwia::::res://PirateSprite/Sprites/Player/11-Jump Sword/Jump Sword 02.png<>uid://bprn5tsq6emdj::::res://PirateSprite/Sprites/Player/11-Jump Sword/Jump Sword 03.png<>uid://mhj6xkbcqho0::::res://PirateSprite/Sprites/Player/12-Fall Sword/Fall Sword 01.png<>uid://dmx0tcsakwdqk::::res://PirateSprite/Sprites/Player/14-Hit Sword/Hit Sword 01.png<>uid://cpkt5jem4vhi7::::res://PirateSprite/Sprites/Player/14-Hit Sword/Hit Sword 02.png<>uid://cukdb7x136n0p::::res://PirateSprite/Sprites/Player/14-Hit Sword/Hit Sword 03.png<>uid://dwbs0fqxrdpan::::res://PirateSprite/Sprites/Player/14-Hit Sword/Hit Sword 04.png<>uid://ce3umggek4bll::::res://PirateSprite/Sprites/Player/Attack/16-Attack 2/Attack 2 02.png<>uid://n0s8v34svq6f::::res://PirateSprite/Sprites/Player/Attack/16-Attack 2/Attack 2 03.png<>uid://dskpl71mk0lot::::res://PirateSprite/Sounds/SoundEffect/Random/Jump 1.wav<>uid://cn1tucn2pc3f4::::res://PirateSprite/Sounds/SoundEffect/Random/Hit 1.wav
+::res://Scenes/Traps/::1715674076
+FallingSpikes.tscn::PackedScene::5766862129720545216::1715674065::0::1::::<><>::res://Scripts/Traps/FallingSpikes.gd<>uid://cbfaoffnja2vr::::res://PirateSprite/Sprites/Interactable/Spikes/Spikes.png<>uid://q56o6n24ckek::::res://PirateSprite/Sounds/SoundEffect/1up/WAV/1up 6 - Sound effects Pack 2.wav
+SpikesGround.tscn::PackedScene::8195077055799539512::1715674065::0::1::::<><>::uid://cbfaoffnja2vr::::res://PirateSprite/Sprites/Interactable/Spikes/Spikes.png<>res://Scripts/Traps/SpikesGround.gd
+::res://Scenes/UI/::1715683008
+Background.tscn::PackedScene::5905233761811111893::1715681442::0::1::::<><>::uid://e5kkf05u8q1d::::res://PirateSprite/Sprites/Decoration/Background/BG Image.png<>uid://clxr8nujgsofb::::res://PirateSprite/Sprites/Decoration/Background/Small Cloud 1.png<>uid://irktiskway7q::::res://PirateSprite/Sprites/Decoration/Background/Additional Sky.png<>uid://2b7scimplpic::::res://PirateSprite/Sprites/Decoration/Background/Additional Water.png<>uid://d2wdmww5caj6j::::res://PirateSprite/Sprites/Decoration/Background/Small Cloud 2.png<>uid://dkvfohftkx8jf::::res://PirateSprite/Sprites/Decoration/Background/Small Cloud 3.png<>uid://bkvbwtfprt1k1::::res://PirateSprite/Sprites/Decoration/Background/Big Clouds.png<>uid://p3nhmrglblpi::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 03.png<>uid://ckm2pmicvb5w7::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 03.png<>uid://drfw22ivgjilp::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 01.png<>uid://cavmhm0pv2yjv::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 02.png<>uid://gaudn38dyfsi::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Big 04.png<>uid://bbdqliup0ox7::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 01.png<>uid://c2edr34gmmr31::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 02.png<>uid://bxcy1ruo633j2::::res://PirateSprite/Sprites/Decoration/Background/Water Reflect Medium 04.png
+Credit.tscn::PackedScene::6594012978621404448::1715681442::0::1::::<><>::uid://jjfcoue1kihn::::res://Settings/FontSettings/Credit.tres
+CutScene.tscn::PackedScene::4701875798403630111::1715683004::0::1::::<><>::
+DialogChat.tscn::PackedScene::4311106933747177517::1715683004::0::1::::<><>::res://Scripts/GUI/DialogChat.gd<>uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf<>uid://b42k182oavf3x::::res://PirateSprite/Font/Quicksand-SemiBold.ttf
+Epilog.tscn::PackedScene::4634048704025973194::1715683004::0::1::::<><>::res://Scripts/Main/Epilog.gd<>uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf
+GameOver.tscn::PackedScene::2127462443897345238::1715683004::0::1::::<><>::res://Scripts/GUI/GameOver.gd<>uid://cwdbww5rl1wbq::::res://PirateSprite/Font/kenvector_future.ttf<>uid://cf34xomloh8il::::res://Settings/FontSettings/LabelSettings.tres<>uid://d3614y35114kk::::res://PirateSprite/Sprites/UI/Pack/blue_button00.png<>uid://dyou0c1llidcd::::res://PirateSprite/Sprites/UI/Pack/blue_button01.png<>uid://bakf58ndv48b8::::res://PirateSprite/Sprites/UI/Pack/blue_button02.png<>uid://beeykfs7tpu4w::::res://PirateSprite/Sounds/SoundEffect/UI/click2.ogg<>uid://bvvi5rtckyis5::::res://PirateSprite/Sounds/SoundEffect/Lose/WAV/Lose 10 - Sound effects Pack 2.wav
+GUI.tscn::PackedScene::116620600969081355::1715683004::0::1::::<><>::res://Scripts/GUI/GUI.gd<>uid://b77g55lv138oj::::res://PirateSprite/Sprites/UI/Life Bars/Big Bars/1.png<>uid://ddjpqnyrsuca3::::res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/01.png<>uid://dyikp17d8vss7::::res://PirateSprite/Sprites/UI/Life Bars/Big Bars/3.png<>uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf<>uid://dqer3ugp2kc11::::res://PirateSprite/Sprites/UI/Life Bars/Big Bars/4.png<>uid://khfis76o63em::::res://PirateSprite/Sprites/UI/Life Bars/Colors/1.png<>uid://cgmfo7s3aomig::::res://PirateSprite/Sprites/Interactable/Potion/Green Potion/07.png<>uid://bryne6u86p6r2::::res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/01.png<>uid://d0hliptss1rm::::res://PirateSprite/Sprites/Interactable/Potion/Red Potion/01.png<>uid://dak8ywhwdmmdu::::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Back.png<>uid://cfsxtd5b420km::::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Pause.png<>uid://ltfepdgdrscq::::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Bottom.png<>uid://fjdgqrhexrwv::::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Next.png<>uid://j0phw5f8n6qg::::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Jump.png<>uid://d33ao85rb7ykf::::res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/340 px/Attack.png<>uid://b2olkil2dl7s8::::res://Scenes/UI/DialogChat.tscn<>uid://cf34xomloh8il::::res://Settings/FontSettings/LabelSettings.tres
+PauseMenu.tscn::PackedScene::2543775851124477450::1715683004::0::1::::<><>::res://Scripts/GUI/PauseMenu.gd<>uid://cwdbww5rl1wbq::::res://PirateSprite/Font/kenvector_future.ttf<>uid://dyou0c1llidcd::::res://PirateSprite/Sprites/UI/Pack/blue_button01.png<>uid://bakf58ndv48b8::::res://PirateSprite/Sprites/UI/Pack/blue_button02.png<>uid://cf34xomloh8il::::res://Settings/FontSettings/LabelSettings.tres<>uid://d3614y35114kk::::res://PirateSprite/Sprites/UI/Pack/blue_button00.png<>uid://beeykfs7tpu4w::::res://PirateSprite/Sounds/SoundEffect/UI/click2.ogg
+Prolog.tscn::PackedScene::8086871696184898729::1715683004::0::1::::<><>::uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf<>res://Scripts/Main/Prolog.gd
+Settings.tscn::PackedScene::1003047370778899806::1715683004::0::1::::<><>::res://Scripts/GUI/Settings.gd<>uid://cwdbww5rl1wbq::::res://PirateSprite/Font/kenvector_future.ttf<>uid://d3614y35114kk::::res://PirateSprite/Sprites/UI/Pack/blue_button00.png<>uid://dyou0c1llidcd::::res://PirateSprite/Sprites/UI/Pack/blue_button01.png<>uid://bakf58ndv48b8::::res://PirateSprite/Sprites/UI/Pack/blue_button02.png<>uid://cf34xomloh8il::::res://Settings/FontSettings/LabelSettings.tres<>uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf<>uid://ditrfi3ji6swq::::res://PirateSprite/Sprites/UI/Pack/grey_sliderRight.png<>uid://djianou5d8m3t::::res://PirateSprite/Sprites/UI/Pack/grey_tickGrey.png<>uid://dcfsd34y4eldd::::res://PirateSprite/Sounds/SoundEffect/UI/rollover1.ogg<>uid://dy25i5paa12hd::::res://PirateSprite/Sprites/UI/Pack/grey_arrowDownWhite.png<>uid://ckk4cbv0sy8wt::::res://PirateSprite/Font/kenvector_future_thin.ttf
+TitleScreen.tscn::PackedScene::1509660358462542000::1715683004::0::1::::<><>::res://Scripts/GUI/TitleScreen.gd<>uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf<>uid://nx3oylnrmv43::::res://PirateSprite/Poster/Poster3.jpg<>uid://cf34xomloh8il::::res://Settings/FontSettings/LabelSettings.tres<>uid://d2hc35geogyph::::res://PirateSprite/Sprites/UI/Pack/blue_panel.png<>uid://cjw6p2oty08m0::::res://PirateSprite/Sprites/UI/Pack/grey_button00.png<>uid://ckpa4iod4nu5e::::res://PirateSprite/Sprites/UI/Pack/grey_button01.png<>uid://chd5pubuxbl6q::::res://PirateSprite/Poster/Poster1.png<>uid://7uax25la0ecg::::res://PirateSprite/Sprites/UI/Pack/grey_button02.png<>uid://8sti0lunct70::::res://PirateSprite/Sprites/UI/Pack/grey_button03.png<>uid://ckk4cbv0sy8wt::::res://PirateSprite/Font/kenvector_future_thin.ttf
+WinScreen.tscn::PackedScene::703244843260669353::1715683004::0::1::::<><>::res://Scripts/GUI/WinScreen.gd<>uid://cwdbww5rl1wbq::::res://PirateSprite/Font/kenvector_future.ttf<>uid://cn5odjput1dqk::::res://PirateSprite/Font/Quicksand-Bold.ttf<>uid://d3614y35114kk::::res://PirateSprite/Sprites/UI/Pack/blue_button00.png<>uid://dyou0c1llidcd::::res://PirateSprite/Sprites/UI/Pack/blue_button01.png<>uid://bakf58ndv48b8::::res://PirateSprite/Sprites/UI/Pack/blue_button02.png<>uid://cf34xomloh8il::::res://Settings/FontSettings/LabelSettings.tres<>uid://beeykfs7tpu4w::::res://PirateSprite/Sounds/SoundEffect/UI/click2.ogg<>uid://cqatbbd87vcx::::res://PirateSprite/Sprites/UI/Pack/blue_button03.png<>uid://bubu0m1aydjjl::::res://PirateSprite/Sounds/SoundEffect/UI/Success 1.wav
+::res://Scenes/World/::1715674119
+LevelOne.tscn::PackedScene::2591592090884484483::1715674065::0::1::::<><>::uid://cqeslp5545teb::::res://Scenes/UI/Background.tscn<>uid://bwqyvikapsal::::res://Scenes/UI/GUI.tscn<>uid://do00ysnmlso5e::::res://Scenes/Traps/SpikesGround.tscn<>uid://cofrm2q5m7slc::::res://Scenes/Traps/FallingSpikes.tscn<>uid://bdlh0er0ny1gy::::res://Settings/TileMapSetting/World.tres<>uid://i0nov7exrg8t::::res://Scenes/Player/Player.tscn<>uid://cuixjacn4y2km::::res://Scenes/Interactables/MovingPlatform.tscn<>uid://dbdi6tuhoug2f::::res://Scenes/Interactables/CheckPoint.tscn<>uid://biuwnfq222xac::::res://Scenes/Collectables/Coins.tscn<>uid://d1qawgcaxqh7p::::res://Scenes/Enemies/FierceTooth.tscn<>uid://dlu7x6g0vswhn::::res://Scenes/Collectables/HealthUp.tscn<>uid://cggatptnel7rf::::res://Scenes/Collectables/JumpPotion.tscn<>uid://b1c1ljlca1iu8::::res://Scenes/Interactables/Ship.tscn<>uid://2b7scimplpic::::res://PirateSprite/Sprites/Decoration/Background/Additional Water.png<>uid://b0ntk5q8ss8g0::::res://PirateSprite/Sprites/Interactable/Flag/Flag 01.png<>uid://brstfxb1ygqnk::::res://PirateSprite/Sprites/Interactable/Flag/Platform.png<>uid://b78vhb2q7738n::::res://Scenes/UI/CutScene.tscn<>uid://gebparh5a57q::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/1.png<>uid://cwrtqypbbc345::::res://PirateSprite/Sprites/Interactable/Ship/Anchor/1.png<>uid://cx6gr4hv7wfq8::::res://PirateSprite/Sprites/Interactable/Ship/Anchor/2.png<>uid://by50gi614m18r::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/2.png<>uid://ddyxfuvd7ujap::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/3.png<>uid://cn1axi2aax4q8::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/4.png<>uid://du78m4ieggm5q::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/5.png<>uid://ds26srmptshaa::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/6.png<>uid://bngpfk6vbhguy::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 01.png<>uid://cfqddlf1ktxv1::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 02.png<>uid://5m7ue8a3j42v::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 03.png<>uid://7ytxtrkgfit6::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 04.png<>uid://birs6p81kfj26::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 05.png<>uid://bmxicxsyyc4qn::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 06.png
+LevelThree.tscn::PackedScene::4035746086177078497::1715674065::0::1::::<><>::uid://bwqyvikapsal::::res://Scenes/UI/GUI.tscn<>uid://bdlh0er0ny1gy::::res://Settings/TileMapSetting/World.tres<>uid://i0nov7exrg8t::::res://Scenes/Player/Player.tscn<>uid://cuixjacn4y2km::::res://Scenes/Interactables/MovingPlatform.tscn<>uid://cbfaoffnja2vr::::res://PirateSprite/Sprites/Interactable/Spikes/Spikes.png<>uid://xyw1tg0wqcep::::res://Scenes/Interactables/ChestKey.tscn<>uid://dbdi6tuhoug2f::::res://Scenes/Interactables/CheckPoint.tscn<>uid://do00ysnmlso5e::::res://Scenes/Traps/SpikesGround.tscn<>uid://cofrm2q5m7slc::::res://Scenes/Traps/FallingSpikes.tscn<>uid://d1qawgcaxqh7p::::res://Scenes/Enemies/FierceTooth.tscn<>uid://dlu7x6g0vswhn::::res://Scenes/Collectables/HealthUp.tscn<>uid://biuwnfq222xac::::res://Scenes/Collectables/Coins.tscn<>uid://bvgt7vpp3yy17::::res://Scenes/Collectables/SpeedPotion.tscn<>uid://dxgu2v65sqfnd::::res://Scenes/Interactables/Chest.tscn
+LevelTwo.tscn::PackedScene::9189335497272012543::1715674065::0::1::::<><>::uid://bwqyvikapsal::::res://Scenes/UI/GUI.tscn<>uid://cqeslp5545teb::::res://Scenes/UI/Background.tscn<>uid://cofrm2q5m7slc::::res://Scenes/Traps/FallingSpikes.tscn<>uid://bdlh0er0ny1gy::::res://Settings/TileMapSetting/World.tres<>uid://do00ysnmlso5e::::res://Scenes/Traps/SpikesGround.tscn<>uid://i0nov7exrg8t::::res://Scenes/Player/Player.tscn<>uid://gebparh5a57q::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/1.png<>uid://2b7scimplpic::::res://PirateSprite/Sprites/Decoration/Background/Additional Water.png<>uid://b78vhb2q7738n::::res://Scenes/UI/CutScene.tscn<>uid://dtve1l563g76r::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/1.png<>uid://cwrtqypbbc345::::res://PirateSprite/Sprites/Interactable/Ship/Anchor/1.png<>uid://bngpfk6vbhguy::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 01.png<>uid://cx6gr4hv7wfq8::::res://PirateSprite/Sprites/Interactable/Ship/Anchor/2.png<>uid://by50gi614m18r::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/2.png<>uid://ddyxfuvd7ujap::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/3.png<>uid://cn1axi2aax4q8::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/4.png<>uid://du78m4ieggm5q::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/5.png<>uid://ds26srmptshaa::::res://PirateSprite/Sprites/Interactable/Ship/Ship/Idle/6.png<>uid://cfqddlf1ktxv1::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 02.png<>uid://5m7ue8a3j42v::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 03.png<>uid://7ytxtrkgfit6::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 04.png<>uid://birs6p81kfj26::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 05.png<>uid://bmxicxsyyc4qn::::res://PirateSprite/Sprites/Decoration/Objects/Ship Helm/Ship Helm Idle 06.png<>uid://c5ubf0xlo8435::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/2.png<>uid://b6sabbikjaeac::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/3.png<>uid://cett7eaek8cha::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/4.png<>uid://cuixjacn4y2km::::res://Scenes/Interactables/MovingPlatform.tscn<>uid://bdd4d3k53keuj::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/5.png<>uid://ctct32u2e236k::::res://PirateSprite/Sprites/Interactable/Ship/Sail/No Wind/6.png<>uid://dbdi6tuhoug2f::::res://Scenes/Interactables/CheckPoint.tscn<>uid://d1qawgcaxqh7p::::res://Scenes/Enemies/FierceTooth.tscn<>uid://biuwnfq222xac::::res://Scenes/Collectables/Coins.tscn<>uid://dlu7x6g0vswhn::::res://Scenes/Collectables/HealthUp.tscn<>uid://c7f23i5v5u1hj::::res://Scenes/Collectables/AttackPotion.tscn
+::res://Scripts/::1715680216
+::res://Scripts/Collectables/::1715674105
+AttackPotion.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+Coins.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+HealthUp.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+JumpPotion.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+SpeedPotion.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+::res://Scripts/Enemies/::1715674113
+FierceTooth.gd::GDScript::-1::1715674065::0::1::::<>CharacterBody2D<>::
+::res://Scripts/GUI/::1715674105
+DialogChat.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+GameOver.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+GUI.gd::GDScript::-1::1715674065::0::1::::<>CanvasLayer<>::
+PauseMenu.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+Settings.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+TitleScreen.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+WinScreen.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+::res://Scripts/Interactables/::1715680216
+CheckPoint.gd::GDScript::-1::1715674065::0::1::::CheckPoint<>Node2D<>::
+Chest.gd::GDScript::-1::1715674065::0::1::::<>StaticBody2D<>::
+ChestKey.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+Ship.gd::GDScript::-1::1715680212::0::1::::<>Node2D<>::
+::res://Scripts/Main/::1715674119
+Epilog.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+Main.gd::GDScript::-1::1715674065::0::1::::<>Node<>::
+Prolog.gd::GDScript::-1::1715674065::0::1::::<>Control<>::
+::res://Scripts/Player/::1715674105
+Player.gd::GDScript::-1::1715674065::0::1::::Player<>CharacterBody2D<>::
+::res://Scripts/Traps/::1715674105
+FallingSpikes.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+SpikesGround.gd::GDScript::-1::1715674065::0::1::::<>Node2D<>::
+::res://Settings/::1715674119
+::res://Settings/FontSettings/::1715674119
+Credit.tres::LabelSettings::650586915520350859::1715674065::0::1::::<><>::uid://b42k182oavf3x::::res://PirateSprite/Font/Quicksand-SemiBold.ttf
+LabelSettings.tres::LabelSettings::5183390783123444759::1715674065::0::1::::<><>::uid://ckk4cbv0sy8wt::::res://PirateSprite/Font/kenvector_future_thin.ttf
+::res://Settings/TileMapSetting/::1715674119
+World.tres::TileSet::2620165271208150588::1715674065::0::1::::<><>::uid://b4t0yqvhqa2g2::::res://PirateSprite/Sprites/Terrain/Platforms (32x32).png<>uid://ly55a2w5h043::::res://PirateSprite/Sprites/Terrain/Terrain (32x32).png<>uid://4fyctub5e306::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water/Top/2.png<>uid://cctkxyefiq0d3::::res://PirateSprite/Sprites/Interactable/Ship/Water/Water/Bottom/1.png

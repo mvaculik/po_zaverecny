@@ -1,0 +1,63 @@
+[gd_scene load_steps=15 format=3 uid="uid://dbdi6tuhoug2f"]
+
+[ext_resource type="Texture2D" uid="uid://b0ntk5q8ss8g0" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 01.png" id="1_qla2q"]
+[ext_resource type="Script" path="res://Scripts/Interactables/CheckPoint.gd" id="1_v5pob"]
+[ext_resource type="Texture2D" uid="uid://bdukgley3drer" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 02.png" id="2_lykjh"]
+[ext_resource type="Texture2D" uid="uid://602walv4c3cv" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 03.png" id="3_8tha0"]
+[ext_resource type="Texture2D" uid="uid://db7wyi11nxrii" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 04.png" id="4_rluav"]
+[ext_resource type="Texture2D" uid="uid://cj2swod23im1c" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 05.png" id="5_kd687"]
+[ext_resource type="Texture2D" uid="uid://dclihn4orqbhu" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 06.png" id="6_td4yq"]
+[ext_resource type="Texture2D" uid="uid://c31mhv32n2ho0" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 07.png" id="7_k0ocl"]
+[ext_resource type="Texture2D" uid="uid://br8wmnputtkan" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 08.png" id="8_swr6s"]
+[ext_resource type="Texture2D" uid="uid://dfa0oqsnnk0v1" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 09.png" id="9_c3avd"]
+[ext_resource type="AudioStream" uid="uid://c41v3d3ahol84" path="res://PirateSprite/Sounds/SoundEffect/Random/Misc 2.wav" id="11_pb62w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ci803"]
+size = Vector2(34, 819)
+
+[sub_resource type="Animation" id="Animation_7w8sh"]
+resource_name = "Activated"
+length = 0.9
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_qla2q"), ExtResource("2_lykjh"), ExtResource("3_8tha0"), ExtResource("4_rluav"), ExtResource("5_kd687"), ExtResource("6_td4yq"), ExtResource("7_k0ocl"), ExtResource("8_swr6s"), ExtResource("9_c3avd")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_elkhg"]
+_data = {
+"Activated": SubResource("Animation_7w8sh")
+}
+
+[node name="CheckPoint" type="Node2D"]
+script = ExtResource("1_v5pob")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_lykjh")
+
+[node name="Activated" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Activated"]
+position = Vector2(0, 17.5)
+shape = SubResource("RectangleShape2D_ci803")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_elkhg")
+}
+
+[node name="Activate" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_pb62w")
+volume_db = 4.0
+bus = &"Sfx"
+
+[connection signal="area_entered" from="Activated" to="." method="_on_activated_area_entered"]

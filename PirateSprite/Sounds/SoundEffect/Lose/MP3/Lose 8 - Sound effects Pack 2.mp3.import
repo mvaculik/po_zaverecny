@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dsur2l3najon4"
+path="res://.godot/imported/Lose 8 - Sound effects Pack 2.mp3-555104d6c18139e4974448149a7a6529.mp3str"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Lose/MP3/Lose 8 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Lose 8 - Sound effects Pack 2.mp3-555104d6c18139e4974448149a7a6529.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

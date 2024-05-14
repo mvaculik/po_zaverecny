@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c754c3q02b2ov"
+path="res://.godot/imported/Lose 3 - Sound effects Pack 2.mp3-9808f956bd37f8f2382a64ec9f5b20ab.mp3str"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Lose/MP3/Lose 3 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Lose 3 - Sound effects Pack 2.mp3-9808f956bd37f8f2382a64ec9f5b20ab.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

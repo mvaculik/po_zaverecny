@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b04jgmyn8lbrn"
+path="res://.godot/imported/Coins 8 - Sound effects Pack 2.mp3-9aa7734df7738df3ca32c26ca0160845.mp3str"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Coins/MP3/Coins 8 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Coins 8 - Sound effects Pack 2.mp3-9aa7734df7738df3ca32c26ca0160845.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

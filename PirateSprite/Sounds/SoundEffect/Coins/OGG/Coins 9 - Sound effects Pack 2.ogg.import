@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://byy7dnph441i8"
+path="res://.godot/imported/Coins 9 - Sound effects Pack 2.ogg-3abf51dbc5e39c935b89a353335e67fd.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Coins/OGG/Coins 9 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/Coins 9 - Sound effects Pack 2.ogg-3abf51dbc5e39c935b89a353335e67fd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

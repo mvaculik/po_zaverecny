@@ -1,0 +1,312 @@
+[gd_scene load_steps=24 format=3 uid="uid://bwqyvikapsal"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/GUI.gd" id="1_nqcft"]
+[ext_resource type="Texture2D" uid="uid://b77g55lv138oj" path="res://PirateSprite/Sprites/UI/Life Bars/Big Bars/1.png" id="2_4w4ds"]
+[ext_resource type="Texture2D" uid="uid://bvjo7sxkgkffe" path="res://PirateSprite/Sprites/UI/Prefabs/4.png" id="2_jh77e"]
+[ext_resource type="Texture2D" uid="uid://ddjpqnyrsuca3" path="res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/01.png" id="3_7pyvq"]
+[ext_resource type="Texture2D" uid="uid://dyikp17d8vss7" path="res://PirateSprite/Sprites/UI/Life Bars/Big Bars/3.png" id="3_50egy"]
+[ext_resource type="FontFile" uid="uid://cn5odjput1dqk" path="res://PirateSprite/Font/Quicksand-Bold.ttf" id="4_kuhx8"]
+[ext_resource type="Texture2D" uid="uid://dqer3ugp2kc11" path="res://PirateSprite/Sprites/UI/Life Bars/Big Bars/4.png" id="4_o8rv3"]
+[ext_resource type="Texture2D" uid="uid://khfis76o63em" path="res://PirateSprite/Sprites/UI/Life Bars/Colors/1.png" id="5_lhm5c"]
+[ext_resource type="Texture2D" uid="uid://cgmfo7s3aomig" path="res://PirateSprite/Sprites/Interactable/Potion/Green Potion/07.png" id="6_6t0s8"]
+[ext_resource type="Texture2D" uid="uid://bryne6u86p6r2" path="res://PirateSprite/Sprites/Interactable/Potion/Blue Potion/01.png" id="10_83iwf"]
+[ext_resource type="Texture2D" uid="uid://d0hliptss1rm" path="res://PirateSprite/Sprites/Interactable/Potion/Red Potion/01.png" id="11_7nwo1"]
+[ext_resource type="PackedScene" uid="uid://5ks837bktxqc" path="res://Scenes/UI/GameOver.tscn" id="11_41gl3"]
+[ext_resource type="Texture2D" uid="uid://dak8ywhwdmmdu" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/Grey-Buttons/340 px/Back.png" id="12_8p8e8"]
+[ext_resource type="Texture2D" uid="uid://cfsxtd5b420km" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/Grey-Buttons/340 px/Pause.png" id="12_qcoyw"]
+[ext_resource type="Texture2D" uid="uid://ltfepdgdrscq" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/Grey-Buttons/340 px/Bottom.png" id="13_vima8"]
+[ext_resource type="Texture2D" uid="uid://fjdgqrhexrwv" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/Grey-Buttons/340 px/Next.png" id="14_am4mn"]
+[ext_resource type="Texture2D" uid="uid://j0phw5f8n6qg" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/Grey-Buttons/340 px/Jump.png" id="15_3e7ww"]
+[ext_resource type="Texture2D" uid="uid://d33ao85rb7ykf" path="res://PirateSprite/Sprites/UI/Mobile Buttons/Grey-Buttons/Grey-Buttons/340 px/Attack.png" id="16_gwu35"]
+[ext_resource type="Texture2D" uid="uid://brjpcb8h7p2pg" path="res://PirateSprite/Sprites/Interactable/Chest/Idle/1.png" id="18_w2t2a"]
+[ext_resource type="PackedScene" uid="uid://bcihu72spolws" path="res://Scenes/UI/PauseMenu.tscn" id="20_5gpo5"]
+[ext_resource type="PackedScene" uid="uid://oj5bqpuvoqxq" path="res://Scenes/UI/Settings.tscn" id="21_fmbda"]
+[ext_resource type="PackedScene" uid="uid://kawls3n5yicf" path="res://Scenes/UI/WinScreen.tscn" id="22_no74h"]
+[ext_resource type="LabelSettings" uid="uid://cf34xomloh8il" path="res://Settings/FontSettings/LabelSettings.tres" id="23_qk132"]
+
+[node name="GUI" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_nqcft")
+metadata/_edit_horizontal_guides_ = [-68.6368]
+
+[node name="Coins" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -114.0
+offset_top = 2.0
+offset_right = -2.0
+offset_bottom = 68.0
+grow_horizontal = 0
+
+[node name="TextureRect2" type="TextureRect" parent="Coins"]
+layout_mode = 0
+offset_left = 1.69922
+offset_top = -1.99781
+offset_right = 97.6992
+offset_bottom = 94.0022
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("2_jh77e")
+
+[node name="CoinIcon" type="TextureRect" parent="Coins"]
+layout_mode = 0
+offset_left = 13.4501
+offset_top = 9.11814
+offset_right = 75.4501
+offset_bottom = 71.1181
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("3_7pyvq")
+
+[node name="TextureRect" type="TextureRect" parent="Coins"]
+layout_mode = 0
+offset_left = 59.0356
+offset_top = 1.0
+offset_right = 187.036
+offset_bottom = 78.0
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_jh77e")
+
+[node name="CoinCount" type="Label" parent="Coins"]
+layout_mode = 0
+offset_left = 69.6292
+offset_top = 4.97754
+offset_right = 95.6292
+offset_bottom = 32.9775
+theme_override_fonts/font = ExtResource("4_kuhx8")
+theme_override_font_sizes/font_size = 18
+text = "0"
+
+[node name="Lifebars" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 70.0221
+offset_right = 70.0221
+
+[node name="Start" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 17.7798
+offset_top = 0.0396881
+offset_right = 77.7798
+offset_bottom = 60.0397
+texture = ExtResource("2_4w4ds")
+
+[node name="Bars1" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 77.7798
+offset_top = 0.0396881
+offset_right = 137.78
+offset_bottom = 60.0397
+texture = ExtResource("3_50egy")
+
+[node name="Bars2" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 137.78
+offset_top = 0.0396881
+offset_right = 197.78
+offset_bottom = 60.0397
+texture = ExtResource("3_50egy")
+
+[node name="Bars3" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 197.78
+offset_top = 0.0396881
+offset_right = 257.78
+offset_bottom = 60.0397
+texture = ExtResource("3_50egy")
+
+[node name="End" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 257.78
+offset_top = 0.0396881
+offset_right = 317.78
+offset_bottom = 60.0397
+texture = ExtResource("4_o8rv3")
+
+[node name="Health" type="TextureRect" parent="Lifebars"]
+layout_mode = 0
+offset_left = 48.9977
+offset_top = 24.8907
+offset_right = 101.998
+offset_bottom = 30.8907
+texture = ExtResource("5_lhm5c")
+
+[node name="PotionEffect" type="HBoxContainer" parent="Lifebars"]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 48.5342
+offset_right = 266.0
+offset_bottom = 65.5342
+scale = Vector2(1.2, 1.2)
+
+[node name="JumpPotion" type="TextureRect" parent="Lifebars/PotionEffect"]
+visible = false
+layout_mode = 2
+tooltip_text = "Jump Potion : Increase Jump Height"
+texture = ExtResource("6_6t0s8")
+
+[node name="BluePotion" type="TextureRect" parent="Lifebars/PotionEffect"]
+visible = false
+layout_mode = 2
+tooltip_text = "Jump Potion"
+texture = ExtResource("10_83iwf")
+
+[node name="RedPotion" type="TextureRect" parent="Lifebars/PotionEffect"]
+visible = false
+layout_mode = 2
+tooltip_text = "Jump Potion"
+texture = ExtResource("11_7nwo1")
+
+[node name="PauseControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -621.48
+offset_top = 8.51984
+offset_right = -567.48
+offset_bottom = 59.5198
+grow_horizontal = 2
+
+[node name="Pause" type="TouchScreenButton" parent="PauseControl"]
+position = Vector2(-0.32888, -2.84443)
+scale = Vector2(0.15, 0.15)
+texture_normal = ExtResource("12_qcoyw")
+action = "pause"
+visibility_mode = 1
+
+[node name="LeftControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+grow_vertical = 0
+
+[node name="Left" type="TouchScreenButton" parent="LeftControl"]
+position = Vector2(59.7404, -112.416)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("12_8p8e8")
+action = "left"
+visibility_mode = 1
+
+[node name="Down" type="TouchScreenButton" parent="LeftControl"]
+position = Vector2(188.025, -108.411)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("13_vima8")
+action = "down"
+visibility_mode = 1
+
+[node name="Right" type="TouchScreenButton" parent="LeftControl"]
+position = Vector2(316.449, -107.052)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("14_am4mn")
+action = "right"
+visibility_mode = 1
+
+[node name="RightCotrol" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Jump" type="TouchScreenButton" parent="RightCotrol"]
+position = Vector2(-117.04, -117.04)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("15_3e7ww")
+action = "jump"
+visibility_mode = 1
+
+[node name="Attack" type="TouchScreenButton" parent="RightCotrol"]
+position = Vector2(-247.295, -117.04)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("16_gwu35")
+action = "attack"
+visibility_mode = 1
+
+[node name="Chest" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 40.0
+grow_horizontal = 0
+
+[node name="TextureRect" type="TextureRect" parent="Chest"]
+layout_mode = 0
+offset_left = -164.387
+offset_top = 1.60279
+offset_right = -100.387
+offset_bottom = 65.6028
+texture = ExtResource("2_jh77e")
+
+[node name="ChestIcon" type="TextureRect" parent="Chest"]
+layout_mode = 0
+offset_left = -149.968
+offset_top = 11.388
+offset_right = -114.968
+offset_bottom = 43.388
+texture = ExtResource("18_w2t2a")
+
+[node name="TextureRect2" type="TextureRect" parent="Chest"]
+layout_mode = 0
+offset_left = -106.765
+offset_top = 5.11133
+offset_right = -42.7645
+offset_bottom = 69.1113
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_jh77e")
+
+[node name="ChestCount" type="Label" parent="Chest"]
+layout_mode = 0
+offset_left = -99.965
+offset_top = 5.90336
+offset_right = -87.9647
+offset_bottom = 31.9034
+theme_override_fonts/font = ExtResource("4_kuhx8")
+theme_override_font_sizes/font_size = 18
+text = "0"
+
+[node name="GameOver" parent="." instance=ExtResource("11_41gl3")]
+visible = false
+
+[node name="PauseMenu" parent="." instance=ExtResource("20_5gpo5")]
+process_mode = 3
+visible = false
+
+[node name="Settings" parent="." instance=ExtResource("21_fmbda")]
+visible = false
+
+[node name="WinScreen" parent="." instance=ExtResource("22_no74h")]
+visible = false
+
+[node name="Score" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+
+[node name="PlayerScore" type="Label" parent="Score"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -54.5034
+offset_top = 14.9831
+offset_right = 60.4966
+offset_bottom = 40.9831
+grow_horizontal = 2
+text = "SCORE : 0"
+label_settings = ExtResource("23_qk132")

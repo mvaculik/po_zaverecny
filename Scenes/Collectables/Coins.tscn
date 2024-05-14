@@ -1,0 +1,107 @@
+[gd_scene load_steps=14 format=3 uid="uid://biuwnfq222xac"]
+
+[ext_resource type="Texture2D" uid="uid://ddjpqnyrsuca3" path="res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/01.png" id="1_plcik"]
+[ext_resource type="Script" path="res://Scripts/Collectables/Coins.gd" id="1_wwxl5"]
+[ext_resource type="Texture2D" uid="uid://bq615npnjytlj" path="res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/02.png" id="2_auvly"]
+[ext_resource type="Texture2D" uid="uid://pxbthk8wub3h" path="res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/03.png" id="3_m12wj"]
+[ext_resource type="Texture2D" uid="uid://cnw5dcxqo4uyl" path="res://PirateSprite/Sprites/Interactable/Coin/Gold Coin/04.png" id="4_8a5ai"]
+[ext_resource type="AudioStream" uid="uid://dys2spe8dnngg" path="res://PirateSprite/Sounds/SoundEffect/Coins/WAV/Coins 8 - Sound effects Pack 2.wav" id="5_00pjc"]
+[ext_resource type="Texture2D" uid="uid://24tvjs2gf0mt" path="res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/01.png" id="5_j7jdm"]
+[ext_resource type="Texture2D" uid="uid://cloh67reugyt3" path="res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/02.png" id="6_qbkjg"]
+[ext_resource type="Texture2D" uid="uid://b8vlrbqt7r5wf" path="res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/03.png" id="7_xcg8i"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hlrwu"]
+radius = 9.49861
+
+[sub_resource type="Animation" id="Animation_labgv"]
+resource_name = "Get"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("5_j7jdm"), ExtResource("6_qbkjg"), ExtResource("7_xcg8i")]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+tracks/2/type = "audio"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Get")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"clips": [{
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource("5_00pjc")
+}],
+"times": PackedFloat32Array(0)
+}
+tracks/2/use_blend = true
+
+[sub_resource type="Animation" id="Animation_k6aa6"]
+resource_name = "Idle"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_plcik"), ExtResource("2_auvly"), ExtResource("3_m12wj"), ExtResource("4_8a5ai")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_seqe3"]
+_data = {
+"Get": SubResource("Animation_labgv"),
+"Idle": SubResource("Animation_k6aa6")
+}
+
+[node name="Coins" type="Node2D"]
+script = ExtResource("1_wwxl5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_plcik")
+
+[node name="GetBox" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GetBox"]
+position = Vector2(0.55681, 0.334087)
+shape = SubResource("CircleShape2D_hlrwu")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Idle"
+libraries = {
+"": SubResource("AnimationLibrary_seqe3")
+}
+
+[node name="Get" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_00pjc")
+bus = &"Sfx"
+
+[connection signal="area_entered" from="GetBox" to="." method="_on_get_box_area_entered"]

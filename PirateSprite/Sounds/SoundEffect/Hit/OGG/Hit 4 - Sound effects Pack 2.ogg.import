@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://440nrkgekxpl"
+path="res://.godot/imported/Hit 4 - Sound effects Pack 2.ogg-1ffb4f9e27175b09c10d837fd7ae0628.oggvorbisstr"
+
+[deps]
+
+source_file="res://PirateSprite/Sounds/SoundEffect/Hit/OGG/Hit 4 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/Hit 4 - Sound effects Pack 2.ogg-1ffb4f9e27175b09c10d837fd7ae0628.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
